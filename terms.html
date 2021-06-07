@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Telecom</title>
+    <!-- bootstrap css -->
+    <!-- <link rel="stylesheet" href="css/new.css"> -->
+    <!-- Bootstrap 5 css minified version cdn added here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- pages css -->
+    <link rel="stylesheet" href="css/terms.css">
+</head>
+<body class="pages terms">
+    <!-- header -->
+    <header id="mainHeader">
+        <div class="mainHeader_contact_info p-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 col-12" id="banner_right">
+                    <!-- <button class="open-button" style=" height: 35px; float:right;margin-right: 14px;" onclick="openForm()"><img src="icons/email.png" style="height: 23px; width: 25px;margin-bottom: 6px;">&nbsp;Chat Offline</button> -->
+                    </div></div>
+                <div class="row">
+                   
+                    <div class="col-lg-6 col-sm-12 col-12">
+                        <p id="top_email" class="text-start mb-0 text-white">
+                            <span class="d-block d-lg-inline d-sm-block me-1"><img src="images/icons/email.png" alt="#" style="width: .9rem;"> Email:abc@poptelecom.com</span>
+                            <span class="d-block d-lg-inline d-sm-block"><img src="images/icons/call.png" alt="#" class="d-inline-block" style="width: .9rem;"> Customer Support : (000) 0000 000</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 col-12">
+                        <p class="text-start text-sm-end text-lg-end mb-0 text-white">
+                            <span class="d-block d-lg-inline d-sm-block">
+                                <a href="#" class="text-decoration-none text-white">
+                                    <img src="images/icons/pound_symbol.png" alt="#" class="d-inline-block img-fluid" style="width: .8rem; margin-top: -3px;"> Make Payment
+                                </a>
+                            </span>
+                            <span id="top_social_media" class="ms-4 text-end d-none d-sm-none d-lg-inline-block">
+                                <a href="#" class="d-inline-block">
+                                    <img src="icons/facebook.png" alt="#">
+                                </a>
+                                <a href="#" class="d-inline-block">
+                                    <img src="icons/instagram.png" alt="#">
+                                </a>
+                                <a href="#" class="d-inline-block">
+                                    <img src="icons/linkein.png" alt="#">
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+                   
+                </div>
+                
+            </div>
+        </div>
+        <div class="mainHeader_nav_menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg p-0">
+                    <a class="navbar-brand p-0" href="index.html" title="#">
+                        <img src="images/pop_telelcom_logo.png" alt="#" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile_view_menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="popTelcomMenu">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link active" href="Broadband.html">Broadband</a></li>
+                            <li class="nav-item"><a class="nav-link" href="tv.html">TV</a></li>
+                            <li class="nav-item"><a class="nav-link" href="fibre-advanced.html">Fibre Advanced</a></li>
+                            <li class="nav-item"><a class="nav-link" href="fibre-infinity.html">Fibre Infinity</a></li>
+                            <li class="nav-item"><a class="nav-link" href="no-contract.html">No Contract</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Bespoke</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="sim-only.html">SIM Only</a></li>
+                                    <li><a class="dropdown-item" href="rural-broadband.html">Rural Broadband</a></li>
+                                    <li><a class="dropdown-item" href="over-60s.html">contact for the over 60s</a></li>
+                                    <li><a class="dropdown-item" href="gaming.html">Gaming</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Landline</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="12-99.html">£12.99 Landline Only</a></li>
+                                    <li><a class="dropdown-item" href="1949.html">£19.49 Line and Anytime Calls</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="aboutus.html">About</a>
+                        <ul class="dropdown-menu">
+                       
+                                    <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+                                    <li><a class="dropdown-item" href="guide.html">Guides</a></li>
+                                    <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link active" href="business.html">Business</a></li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav d-flex extra_menu">
+                        <li class="nav-item me-3" id="search_btn"><a class="nav-link active" data-bs-toggle="collapse" data-bs-target="#searchBar" href="#">
+                            <img src="images/icons/search.png" class="img-fluid" alt="#" width="14" height="16">
+                        </a></li>
+                        <li class="nav-item" id="number_btn"><a class="btn btn-outline-secondary" href="#"><img src="images/icons/call_header_ring.png" class="img-fluid" alt="#"> (000) 000 000</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+    </header>
+    <!-- /end header -->
+
+    <!-- extra menu for mobile and ipad and tabs view -->
+    <div id="mobile_view_menu" class="collapse fade">
+        <button class="btn btn-lg" id="btn_close_icon" data-bs-toggle="collapse" data-bs-target="#mobile_view_menu" href="#"></button>
+        <div class="container">
+            <div class="navbar navbar-expand-lg">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="broadband.html">Broadband</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tv.html">TV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fibre-advanced.html">Fibre Advanced</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fibre-infinity.html">Fibre Infinity</a></li>
+                    <li class="nav-item"><a class="nav-link" href="no-contract.html">No Contract</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Bespoke</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sim-only.html">SIM Only</a></li>
+                            <li><a class="dropdown-item" href="rural-broadband.html">Rural Broadband</a></li>
+                            <li><a class="dropdown-item" href="over-60s.html">contact for the over 60s</a></li>
+                            <li><a class="dropdown-item" href="gaming.html">Gaming</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Landline</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="12-99.html">£12.99 Landline Only</a></li>
+                            <li><a class="dropdown-item" href="1949.html">£19.49 Line and Anytime Calls</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">About</a>
+                       <ul class="dropdown-menu">
+                           <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
+                           <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+                           <li><a class="dropdown-item" href="guide.html">Guides</a></li>
+                           <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                       </ul>
+                   </li>
+                    <li class="nav-item"><a class="nav-link active" href="business.html">Business</a></li>
+                </ul>
+            </div>
+
+            <ul class="list-group list-group-horizontal-lg mb-5">
+                <li class="list-group-item">
+                    <a href="#" class="text-dark">
+                        <img src="images/icons/call_header_ring.png" class="img-fluid" alt="#"> (000) 000 000</a>
+                </li>
+            </ul>
+
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">
+                    <a href="#">
+                        <img src="icons/facebook.png" alt="#">
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">
+                        <img src="icons/instagram.png" alt="#">
+                    </a>
+                </li> 
+                <li class="list-group-item">
+                    <a href="#">
+                        <img src="icons/linkein.png" alt="#">
+                    </a>
+                </li>           
+            </ul>
+        </div>
+    </div>
+
+    <!-- search bar for desktop, tabs, ipad and mobile view -->
+    <div id="searchBar" class="collapse fade">
+        <button class="btn btn-lg" id="btn_close_icon" data-bs-toggle="collapse" data-bs-target="#searchBar" href="#"></button>
+        <div class="container">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="row g-0">
+                    <div class="form-floating col-lg-11 col-11">
+                        <input type="text" class="form-control" name="s" id="searchId" placeholder="Search here">
+                        <label for="searchId">Search here</label>
+                    </div>
+                    <div class="col-lg-1 col-1">
+                        <button class="btn btn-lg btn-primary btn-block" type="button" id="search_btn_submit"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /search bar -->
+
+
+      <!-- main content -->
+      <main id="pages_content">
+        <!-- section 1 -->
+        <section id="mainContent_1" style="padding-top: 50px;">
+            <div class="container">
+                <div class="align-items-xl-center row">
+                    <h3 style="color:#11304e; font-size: 35!important; font-weight: 600;">Terms and Conditions</h3> <br>
+                    <p class="startp">POP Telecom Terms and Conditions for the provision of All Line Types, All Call Services, All Call Types, All Data Services, All TV Packages.
+
+                        These terms and conditions govern the services provided to you by POP Telecom Limited (trading as POP Telecom), POP Telecom PO BOX 12927 Ingatestone CM4 9YW.</p>
+                       
+                        <b style="font-size: 24px;">Your Legal Rights</b>
+                        <br><br><br>
+                        <div>
+                       <ol>
+                           <li><b> Eligibility</b></li>
+                           <p>The Services are for business or consumer use but different charges will apply.
+
+                            To place any Order, you must be at least eighteen (18) years old and you agree that the details that you provide to us on your Order shall be true, accurate and complete.
+                            
+                            Our Service(s) may not be available to a small number of customers in certain circumstances. We will tell you if this applies to you.
+                            
+                            On receipt of your application for the services, we will make an application to your previous provider to switch your chosen telephone services to POP Telecom, or to your current broadband provider to switch your broadband service to POP Telecom (excluding installation customers). Either way if your previous provider is able to validate your application then we will notify you in writing of the estimated activation date for your service with POP Telecom. Normally this takes around 10 working days from the date when the order is accepted provided you have an existing compatible BT line, if you opt for an installation type order then we will not always notify your previous provider and this is your responsibility.
+                            
+                            If for any reason, BT or such is unable to move your service to POP Telecom, we will contact you.
+                            
+                            If you require a new line to be set up, and we agree to do this for you, your POP Telecom service will normally take approximately 4 weeks to be activated from the date you place your order with us and it is your responsibility to contact your previous provider if you currently have one.</p>
+                           <li><b> Connection Fees and New Line Fees</b> </li>
+                           <p>When you connect to our network you will usually be charged a connection fee or if it is a new line then you will usually be charged an installation fee. These fees are levied in addition to any other charges which may be due under any other term of these Conditions and it arises primarily from charges which are levied on us. Accordingly, we must reserve the right to pass on some or all of these charges to you and if appropriate to charge you for any additional related expenses we may incur in relation to your connection/install. These fees will usually be charged at the point of connection to the relevant service. The connection fee will be charged in accordance with our price list as published on our Website on the day you order the Services.  Setup fees and router delivery fees are non refundable.</p>
+                           <li> <b>Transferring a Service</b></li>
+                           <p>We will try to give you the same set of service features that you received from your previous telephone provider. However, you accept that this may not be possible in some limited circumstances. Furthermore, since the service features will not always be automatically retained on transfer to POP Telecom, we can only provide you with those service features which you specifically selected when signing up to our Service unless these automatically transfer from your previous supplier.
+
+                            If, immediately prior to receiving the Services from us, you were a customer of BT, some calls (such as premium rate services) that appear on your POP Telecom bill may involve additional call charges. We will charge you for these at our rates as set out in our list of Charges (as amended from time to time).</p>
+                           <li> <b> Your Previous Provider</b></li>
+                           <p>You may have existing contracts for services (e.g. line rental, or calls, or broadband) with your old service providers, which have minimum service periods in them. You are responsible for checking any such contracts and for paying any ongoing or termination charges to your old service provider. You will have to pay any such charges in addition to our charges. It is your responsibility to ensure you inform your old provider of your new service with us and Pop Telecom will not be held liable for any charges you incur from your previous provider by doing this.</p>
+                           <li> <b>Call Set up Charge</b></li>
+                           <p>All calls will have a set up charge which varies according to the type of call. Details of our call set up Charges are published on our website or you can contact our customer service department, the number is available on any of your telephone bills from us.</p>
+                           <li> <b>Inclusive Call Allowances</b> </li>
+                           <p>Pop Telecom offers a range of UK Call plans including Weekend Minutes, Evening and Weekend Minutes and Anytime Minutes. Numbers included in your plan will be discussed and agreed with you before the commencement of your contract and are also available on your welcome letter from us. Inclusive calls to UK numbers means calls up to 59 minutes. For any call, longer than 59 minutes you will be charged at normal standard rates. If you wish to avoid these charges you can replace the handset and re-dial before the fifty ninth (59) minute threshold is reached. Inclusive calls only cover UK Mainland and Northern Ireland beginning 01, 02, & 03. All call plans are subject to a fair usage policy which can be found on our website, this will also be confirmed on your welcome letter from us or you can contact our customer service department, the number is available on any of your telephone bills from us.</p>
+                           <li> <b>Chargeable Numbers</b> </li>
+                           <p>You accept that you may not always get through to all international destinations or other non-standard call types and that we may also require you to pay a deposit or impose a Credit Limit before we allow you to use International Access or other non-standard numbers. Even if we have imposed a Credit Limit, you will be responsible for any call charges you incur in excess of that limit because of delays in our billing system. If you have a bar for certain numbers, whether requested or not you accept that this bar is not guaranteed and you are still responsible for the charges incurred if these calls are made.</p>
+                           <li> <b>Call Charges</b></li>
+                           <p>Charges for calls you make using any Service will be calculated using details logged and recorded by us. Calls are charged based on the rate applicable when the call was initiated. Calls will be charged and inclusive allowances deducted in one minute increments (with any part minutes rounded up to the nearest minute) individual charges will then be rounded up to the nearest whole penny. In addition, and notwithstanding the preceding sentence, there is a per call connection charge and the details of these call connection charges appear in our price list which is available on our Website. The call connection charges will include without limitation, any calls made as part of a 'calling circle' but do not include any Mobile Service calls for which there is minimum charge per call (the details of which appear in our price list available on our Website).
+
+                            You should also be aware that we may allocate Call Data Records ("CDR's") which have been received late, whether from other Network Operators or otherwise, into the bill for your current Billing Period. Further details of late arriving CDR's are available from Customer Services.
+                            
+                            If your Tariff Plan includes 'inclusive' minutes, which apply to all call types up to a monthly limit, unused inclusive call minutes cannot be carried forward from one month to the next. In this context "monthly" or "month" means your monthly Billing Period, which may not equate to a calendar month.</p>
+                           <li> <b>Changing Our Charges</b></li>
+                         <p>We shall be entitled to amend our Charges or change the Tariff Plan you are on from time to time and we will notify you of such changes by making the amended list of Charges available on our Website. If Charges are decreased this will be reflected in your next bill. Should we increase the Charges we shall provide you with thirty (30) days’ notice of such increase and the increase will take effect from the end of that period. Any changes that may apply to VAT charges from time to time, which may result in an increase or decrease in your Tariff Plan Charges, will not be regarded as a price increase.
+
+                            We can give written notice of an increase in a Price Plan Charge in line with the Retail Price Index (RPI) published by the Office for National Statistics (calculated using the most recently published RPI figure)</p>
+                           <li><b> Moving Premises</b></li>
+                           <p>If you are moving to a new address, we will do our best to arrange the transfer of your line whilst retaining your existing telephone number. However, you accept that we may not always be able to do so and we are not liable to you if we cannot and you accept that there may be interruptions to your service in some circumstances. You accept that if you move to new premises and wish to continue to receive the Services at your new address you may incur an additional Change of Address Fee. You accept that if you move to new premises then your contract will be renewed and a new Minimum Term will begin which may be subject to new pricing which is available at your new address.
+
+                            If you move to a new address and want to access the Services at your new address you may need to set up new accounts for that location by calling Customer Services. You may have to provide us with what we regard as suitable proof of your new address and a suitable time period in which to start these services, normally a minimum of 4 weeks notice is required. If you do not provide this information we will not be able to terminate your existing account and you will be liable for any charges that remain due in respect of the remainder of the term for the particular Service (for example, the remainder of the Minimum Period for the Broadband Service).</p>
+                           
+                           <li> <b> Specific Provisions Relating to the Broadband Service</b></li>
+                           <p>The Broadband Service is available as a separate Service, you do not have to take our UK Calls Service in order to sign up to our Broadband Service. The Broadband Service does not include any line service. If you use another provider for these services, you must continue paying the other provider.
+
+                            In order to provide you with the Broadband Service, we need to test your telephone line to ensure that broadband is available in your area. You are responsible for paying for any work that needs to be carried out on your telephone line in order to receive broadband. When we activate your Broadband Service, you accept that there may be a temporary loss of service on your line. We will try to minimise the duration of this loss of service and will check before activating your service to make sure you are not making a voice call on the line at the time we activate your Broadband Service.
+                            
+                            Pop Telecom broadband coverage and speed is dependent on various factors including Openreach network, distance from the cabinet and the exchange equipment capability
+                            
+                            Note: Upon verification of your order should your local exchange equipment not be fully upgraded to receive our broadband service we will be able to offer an alternative broadband which may incur an increased monthly charge.  Should this be the case one of our team members will contact before processing you order and confirm all correct monthly charges.</p>
+                           <li> <b>Transferring or Terminating your Broadband Service</b></li>
+                           <p>If you terminate your Broadband Service prior to the end of the Minimum Period you must pay us all charges relating to terminating your services based on closing your service earlier than the minimum term. The same applies if your telephone line is disconnected prior to the end of your minimum term.</p>
+                           <li> <b>Transmission Speeds</b></li>
+                           <p>We will try to give you the 'download' Transmission Speed that you have signed up for but, due to the limitations of current broadband technology, we cannot guarantee that you will always be able to get these Transmission Speeds. If we cannot provide you with the Transmission Speed you have signed up for, we will give you the next available lower Transmission Speed. The Transmission Speed may also change if you move premises because broadband speeds are dependent on your proximity to your local telephone exchange. You accept that 'upload' speeds will always be slower than 'download' speeds. We will provide you with further details of these upon request.</p>
+                           <li><b> Broadband Hardware</b></li>
+                           <p>To be able to receive and use the Broadband Service you will need an existing telephone line and a personal computer (“PC") of minimum specification. Please speak to Customer Services for further details of the minimum PC specification that is required. You will also need compatible cables and extension leads between your PC, Router and telephone socket.  You accept you may need to modify or configure your PC slightly to make it operate with the Broadband Service. It is your responsibility to ensure that such modifications do not invalidate the terms of any warranty that you may have concerning your PC. We will not be liable if any such warranty has been invalidated as a result of work carried out by you, us or our agents (including BT) to make your PC operate with the Broadband Service, except in the event of our negligence.  We will only support broadband service when the router is plugged into the master socket in your premises. </p>
+                           <li> <b>Router</b></li>
+                           <p>If when you order an applicable Service you purchase a Router from us or we otherwise agree to supply one to you without charge with the Service, we will try to ensure sure that the Router is delivered to your home before the Service is activated. However, we cannot guarantee that you will receive the Router in time. Please note, for environmental reasons, any Router that we agree to supply without charge may be a Router in 'as new' condition. This will be a Router that has been refurbished and/or repackaged, but it will look and operate in exactly the same way as a new Router.
+
+                            You must inspect the Router as soon as you receive it and tell us of any damaged or missing items within fourteen (14) days by calling Customer Services. We will then send you a new Router, but if we do this you must also return the faulty one to us in accordance with the clauses below. We will also repair or replace the Router if it becomes faulty during the first six (6) months after we supply it to you, but we will not replace any faulty Router if you are responsible for the fault (including without limitation as a result of your failure to follow the manufacturer's instructions or your mis-use or alteration of the Router without our approval). In that case, you must pay for a new Router in order to receive the applicable Service.
+                            
+                            If we send a replacement Router, you must return to us the faulty Router (including all cables and software that came with it) within fourteen (14) days of receipt of the replacement Router. You accept that we will charge you for the replacement Router if you do not return the faulty Router (including all cables and software that came with it). You must keep the original box and packaging for the Router in good condition and ensure that the Router is stored in accordance with the manufacturer's recommendations. We will refund the reasonable cost of returning the faulty Router to us by post. At your request, we will send you a pre-paid returns envelope to return a faulty Router to us.
+                            
+                            If you wish to use a Router or any other equipment that we have not supplied, we will try and help you as far as we can. However, we cannot guarantee that the applicable Service will work with that Router or equipment.
+                            
+                            If prior to the Commencement Date you cancel your Order for the applicable Service in accordance with the Consumer Contracts Regulations 2013 and we have supplied you with a Router without charge, or if at any time your purchase a Router from us over the phone or from our Website and in accordance with the same regulations you cancel your contract for the purchase of that Router by giving us notice within the period of fourteen working days starting from the day after you receive the Router from us, you must return the Router to us undamaged and in its original packaging by sending it recorded delivery to POP Telecom PO BOX 12927 Ingatestone CM4 9YW. If you have purchased the Router from us, we will issue you with a cheque refund within thirty (30) days of receiving the returned Router from you. This refund will only apply to the purchase price of the Router; we will not refund the cost of returning it to us unless it is faulty.
+                            
+                            If you return the Router to us in accordance with these clauses and have either failed to take reasonable care of the Router while it remained in your possession or you fail to return all the relevant cables and appropriate ancillary equipment or software supplied to you with the Router, we shall be entitled to debit your account (using the details that you provided to us with your Order) for the full replacement cost of such Router. To take reasonable care of the Router you shall retain and keep the original box and packaging for the Router in good condition and shall ensure that the Router is stored in accordance with the manufacturer's recommendations.
+                            
+                            Router Assurance - POP telecom provides an optional service to protect your router from breakdown.  The service is provided FREE for the first two months and is charged at £2 per month thereafter.  In the situation that your router fails for any reason contact us and we will arrange a replacement unit to be sent only charging the delivery cost.  This can be cancelled at anytime as long as you have not benefited from the service.</p>
+                           <li> <b>Equipment</b></li>
+                           <p>Other than a router (which we may sell to Customers of our Broadband Service), we will not provide you with any equipment for your line or broadband (such as a telephone).  We are not responsible for any problems you may have with equipment which we have not provided to you. We do not offer any maintenance services for such equipment.
+
+                            You agree not to connect any equipment to our network or service that may harm it or other customers’ equipment. If you do, you must disconnect it immediately, or allow us to do so at your expense.
+                            
+                            Where we supply Equipment, any specified delivery date shall be treated as an estimate only. We accept no liability for failure to meet any delivery date.  All equipment supplied by POP Telecom remains the property of POP Telecom until paid for in full.  Where the equipment is supplied with a contract then goods will remain the property of POP Telecom until the contract term completes unless otherwise stated.  All warranty claims should be made to the equipment manufacturer.</p>
+                           <li> <b>Allocation and use of e-mail addresses and mailbox/storage</b></li>
+                           <p>You accept that you do not own any e-mail addresses that we have given to you. You also accept there may be good reasons why sometimes we may need to change the e-mail addresses.
+
+                            To prevent 'spam' from affecting the operation of our systems and the Broadband Service, we may need to block access to or delivery of any email which appears to be of an unsolicited nature and/or part of a bulk e-mail transmission. We may also use virus screening technology that may result in the deletion or alteration of e-mail and or e-mail attachments. We expect this software to be fully effective but we cannot guarantee that it will always protect you from unsolicited emails or any virus, worm, Trojan horse or similar. We therefore recommend that you install your own anti-virus software.
+                            
+                            Where we provide you with email facilities, web hosting or other services that involve us providing storage space on our systems, we may impose limits (which we may vary from time to time) on the storage space we provide to you in order to ensure the quality of the service to you and other users. These limits may relate to the physical amount of web space or the number of mailboxes made available to you, email messages that can be stored and/or the size of any attachments you can send. We may reject or delete material that exceeds the relevant limit. We may also: (a) block receipt of emails to; and/or (b) archive or delete emails and/or attachments from, mailbox accounts which have not been used by you for a reasonable period of time.</p>
+                           <li> <b>Electronic communications networks</b></li>
+                           <p>When we provide you with a Service, we will use the reasonable skill and care of a competent electronic communications provider, but it is impossible to guarantee that any electronic communications Service will always be free from faults nor will it be continuously available.</p>
+                           <li> <b>Alarm Systems and Emergency Systems</b></li>
+                           <p>It is your responsibility to make sure that the Broadband Service or any other service does not affect any alarm system in your home or any other systems which rely upon telephone or Broadband service.</p>
+                           <li> <b>Your Telephone Number</b></li>
+                           <p>You do not own any telephone number we make available to you under your Contract. In exceptional circumstances, we may have to change your telephone number. We will do so only when it is reasonably necessary or if we are requested to do so by Ofcom or another equivalent regulator. We will give you as much notice as possible before we change your number.
+
+                            You may request us to transfer or ‘port’ your number from another communications provider and we will try to do this wherever it is reasonably practicable. However, you accept that this may not always be possible. In these circumstances, we may have to provide you with a new number. If you have any questions in this regard please call Customer Services, the number can be found on any of your telephone bills from us.</p>
+                           <li> <b>Service Features</b></li>
+                           <p>Our network will provide you with access to certain services including: emergency services using 999 or 112; operator assistance services and we reserve the right to charge you for some of these services (other than calls to the emergency services).
+
+                            At an additional cost, we can provide you with the following optional UK Service Features:
+                            
+                            call waiting, caller display; 1571 Answer phone service, call minder services, Admin barring services, call diversion services, for a full list of services please contact our customer service department, the number can be found on any of your telephone bills from us.
+                            
+                            Please note you can only change your select service options once in any given month. We will make any requested change to your service with effect from the following month. Changes can be requested by sending an email to cs@poptelecom.co.uk or by calling Customer Services, the number can be found on any of your telephone bills from us.</p>
+                           <li> <b>Duration</b></li>
+                           <p>Your contract will start on the Commencement Date of your service and we will continue to provide the Services until the Contract is terminated in accordance with the clauses in these Conditions.  Your Contract with us is subject to a Minimum Term of 12, 18 or 24 months.  This will be agreed with you before the Commencement Date of your contract.</p>
+                           <li> <b>Your bill</b></li>
+                           <p>We will send you a bill, which you must pay on time. We may send you separate bills if you take more than one Service from us. Your first or second bill may include a pro rata payment dependent on the time of the month your join our network. Your last bill from us will be received after your services have been terminated from our network. All bills must be paid on time and failure to do so will result in a possible suspension to your services.
+
+                            Within thirty (30) days of the Commencement Date, we shall prepare and send to you a bill for the Services you have used. Thereafter we shall prepare and send to you a bill at the end of every Billing Period.
+                            
+                            You may choose to receive your bills in paper or electronic form (including accessing your bills online). If you choose to receive your bill in paper format we reserve the right to charge you an additional amount for providing you with this service.
+                            
+                            You will be billed monthly in advance. Monthly charges incurred for periods of less than one month will be calculated on a pro rata basis. Calls made using any Service will be billed in arrears.
+                            
+                            All bills shall be payable within fourteen (14) days of receipt and shall be paid by way of direct debit to POP Telecom or such other entity as we shall notify you from time to time. Unless we expressly agree otherwise any and all Charges are inclusive of VAT.
+                            
+                            Unless you have requested itemised billing (for which we may charge you extra), you will only be advised of the total amount of Charges.
+                            
+                            A Late payment fee will be added to any invoice not paid when due.</p>
+                           <li> <b>Charges and Payment</b></li>
+                           <p>Our Charges for providing the Services shall be effective from the Commencement Date applicable for each Service and will be calculated in accordance with your Tariff Plan.
+
+                            You must pay all the Charges incurred by you, or any person using any Service, even when such Charges exceed any Credit Limit imposed upon your account. A list of all current service and call charges are available on our website.  If payment is not received your line will be placed temporarily out of service.  If payment is still not made then your account will be passed to an External Debt/Legal company and extra fees may be incurred for their services.  Paying by card will enter you into a Continuous Payment Authority until you cancel it.</p>
+                           <li> <b>Direct Debit Payment</b></li>
+                           <p>We reserve the right to request that you pay for the Services by Direct Debit and you accept that your Charges may increase if you do not use this payment method. If a direct debit is dishonoured or cancelled we shall be entitled to pass on to you any third-party charges we incur and in addition, we may lower your Credit Limit, suspend or terminate your Service. We shall also be entitled to charge you a monthly administration fee for each month in which your direct debit is dishonoured or not reinstated following cancellation.  A Late payment fee will be added to any direct debit not paid when due.</p>
+                           <li> <b>Interest</b></li>
+                           <p>We may charge you interest both before and after judgement at a rate equal to the greater of 2% above base rate from time to time of Barclays Bank plc or the statutory minimum allowable on the late payment of our bill. Interest is charged on a per annum basis, calculated daily.</p>
+                           <li> <b>Suspension of the Service(s) by Us</b></li>
+                           <p>We may suspend immediately the provision of the Services to you until further notice without compensation if:
+
+                            We reasonably suspect that you are in breach of these Conditions; or
+                            
+                            You are in breach of your obligation to pay the Charges and have not remedied the breach. You should also note that if you fail to meet your payment obligations, your line may be blocked and you will not be able to make incoming and outgoing calls (including emergency calls) and if you are on our Broadband Network you will not be able to use the Broadband Service; or
+                            
+                            We are obliged to comply with an order or request of the UK Government, the emergency services organisation or other competent authority; or
+                            
+                            If you owe us any money whether under your Contract for mobile services, the UK Calls Service, the Broadband Service or otherwise; or
+                            
+                            You exceed your Credit Limit; or
+                            
+                            We have reasonable cause to suspect fraudulent use of a payment card, whether a Credit or Debit Card or otherwise.
+                            
+                            If we suspend the Services for these reasons your Contract will still continue and you shall reimburse us our costs and expenses reasonably incurred in suspending the Services and/or recommencing them. In addition, you must pay all Charges due from you under your Contract incurred prior to the time when your Contract is properly terminated. If we suspend any Service, we will not provide it again until you confirm that you will use the Service only as agreed in this Contract.
+                            
+                            If we exercise the right to suspend (or bar your access to) the Services this shall not affect our right to terminate your Contract.
+                            
+                            If we agree to re-enable your services this can take a up to seven (7) working days.</p>
+                           <li> <b>Credit Limits</b></li>
+                           <p>Where you have entered a Contract to receive any Service from us, your account is limited in any one month to an amount which may either have been set at the time of your application or at any time thereafter while you have a Contract with us ("Credit Limit"). This Credit Limit is subject to the following provisions:
+
+                            We may, depending on your payment history with us, lower your Credit Limit. On request, we may agree to raise your Credit Limit. If you wish to vary your Credit Limit you should telephone Customer Services;
+                            
+                            As our billing system is not instantly updated each time you make a call, it is possible to exceed your Credit Limit. The Credit Limit does not act as a bar and you may be able to incur Charges that result in you exceeding your Credit Limit. You will be liable for all Charges, including any in excess of your Credit Limit. You will be asked to pay any Charges in excess of your Credit Limit before Services are reinstated; and
+                            
+                            We may suspend your service if your Credit Limit is exceeded and if you exceed your Credit Limit in respect of the UK Calls Service all of your outgoing calls may be diverted to our Customer Services department.</p>
+                           <li> <b>Deposits</b></li>
+                           <p>In addition to setting a Credit Limit, we may ask you to pay a non-interest bearing deposit which we will be able, at any time, to use to pay off any Charges you owe. Any such deposit will be reasonable and will be assessed in the light of your previous POP Telecom bills and credit history. At any time, you may ask for a refund of your deposit but this may result in us reducing your Credit Limit.</p>
+                           <li> <b>Faults and Repairs</b></li>
+                           <p>If there is a fault with your Service, you should contact Customer Services, the number can be found on any of your telephone bills from us. In accordance with industry practice we will try and repair a service failure by midnight on the third working day (not including public and bank holidays) after the day you report the fault to us.
+
+                            You may also be able to claim compensation if we fail to repair your Service or if we fail to respond to a fault when we said we would. Please contact Customer Services or visit our Website for further information on reporting a fault and details of our compensation policy. If your compensation claim is successful, the amount you receive will be credited to a later invoice. The maximum compensation claimable is £100.00 per line per annum.
+                            
+                            Please note, you cannot claim compensation if:
+                            
+                            You don’t qualify under the terms of our compensation policy;
+                            
+                            You have not made your claim within one (1) month of the date on which we repaired the fault;
+                            
+                            Someone other than POP Telecom has caused the fault;
+                            
+                            The fault was caused by something beyond POP Telecom ’s control, e.g. network or atmospheric conditions;
+                            
+                            We ask to come onto your property and you do not allow us to;
+                            
+                            We reasonably ask you for other help and you do not give it; or
+                            
+                            Your Service(s) haven’t been fully installed and activated at your address (whether you’re a new customer or are moving premises and taking your service with you).
+                            
+                            If you have agreed to a visit from our engineer but the engineer is not able to come onto the Premises or gain access to the relevant equipment, we will charge you an abortive visit charge.
+                            
+                            We can also charge you for any such engineer visit if we reasonably believe that you have caused the fault by damaging the phone line or phone plug in your wall.
+                            
+                            When you report a fault, we try to offer you guidance to check that it is not your own personal equipment which is causing the fault (i.e. a faulty handset). If we send an engineer to attend your property and the fault is caused by anything which is not maintained by the network then a charge will be levied for this. This charge is explained to you before the engineer attends your property.
+                            
+                            Landline Assurance - POP telecom offers a service to protect you from any unexpected charges for faults on your line.  This is provided for the period of 2 months for free and is then charged at £2.50 per month thereafter.  If you have a fault and have completed the required diagnostic tests then you will be covered against all costs from Openreach.  The service can be removed at anytime as long as you have not benefited from the service.</p>
+                           <li> <b>Ending a Particular Service or Changing a Tariff</b></li>
+                           <p>The price that we charge for a bundle of products may be lower than the total price of the individual products in the bundle had they been ordered separately. If you take a bundle of Services, but later choose to take one or more of the Services from another telephone provider, you accept that we may charge for the remaining Services at their stand-alone price.
+
+                            Please note that, if you make calls over another operator’s Network using an override code these calls may be charged at a higher rate than your normal POP Telecom rates.</p>
+                           <li> <b>If you wish to end your Contract</b></li>
+                           <p>If you wish to cancel a Service, the following will apply:
+
+                            to disconnect the Broadband Service, you must tell us in writing 30 days in advance of leaving us;
+                            
+                            to disconnect the UK Calls Service, you must tell us in writing 30 days in advance of leaving us.
+                            
+                            to disconnect the POP TV Package Service, you must tell us in writing 30 days in advance of leaving us and return your equipment.
+                            
+                            Out of contract there are no fees to leave POP telecom other than equipment costs if not returned.
+                            
+                            If you wish to end this Contract, you must either call Customer Services or write to us at POP Telecom PO BOX 12927 Ingatestone CM4 9YW.
+                            
+                            If you are ending your contract or any service before the end of your initial term then you will be provided with an early termination fee for the remainder of the contract.  This is detailed on our website or you can contact the Customer Service Department, the number can be found on any of your telephone bills from us.</p>
+                       
+                           <li> <b>Other provisions</b></li>
+                           <p>If we end your Contract for UK Calls Services, and you are not on our LLU Network, you accept that we can transfer your service either to BT, or back to your original provider without your consent.
+
+                            If you end your Service with us, you will be responsible for transferring to another service provider. If you do not do this, you may be left without any telecommunications service.
+                            
+                            If you have accepted any Service on the basis of it being offered by us 'forever', you acknowledge and accept that this can only apply providing that you stay as a Customer and we continue to offer the Service on our Network.
+                            
+                            If at any time either you or us end your Service with us for any reason and you have made any cash, debit or credit card payments in advance for that Service or paid any deposit we shall only refund the excess of such payments that remains after settlement of all charges on your POP Telecom account. If we have awarded you any goodwill credits during your Contract, we shall apply those first to any outstanding charges on your account before we send your final bill. However, if your Service is cancelled by you or us and any goodwill credits or any part of them remain after we have accounted for all outstanding charges on your account for that Service, those credits will be cancelled when your Service ends and you will not be paid or be entitled to claim the cash value of any such credits, or to otherwise redeem them or transfer them to any other POP Telecom account holder or to any third party.</p>
+                           <li> <b>Your use of the Services</b></li>
+                           <p>You agree not to use the Services:
+
+                            for making calls, sending data, publishing, knowingly receiving, uploading or downloading any data or material which are or may be reasonably deemed to be a nuisance, a hoax, abusive, obscene, racist, defamatory, menacing, indecent (including to the Customer Services operators who deal with enquiries concerning the Service), in breach of confidence, in breach of any intellectual property right (including copyright) or which is otherwise objectionable or unlawful, or you allow others to do these things or is of a nature which if transmitted would constitute a criminal offence, to do anything (or allow anything to be done) which we think (acting reasonably) may damage or affect the operation of any Network, to cause annoyance, inconvenience or needless anxiety to any other person, company or organisation, to send or procure the sending of any unsolicited advertising or promotional material, for any purpose which we may reasonable notify you of, from time to time, due to the introduction of new legislation or applicable regulations, as a means of communication, the purpose of which is other than that for which the Service is provided (including without limitation abusive or malicious calls), or which is carried out in an unauthorised way or for fraud or criminal activities, for purposes of intrusion, or attempts to intrude, into the equipment and systems of any third party, or the mounting of any harassment campaign including Denial of Service Attacks, in any way which does not comply with instructions given to you by us, our agents or our authorised contractors, other than in accordance with the acceptable use policies of the Network and (if appropriate) any relevant internet standards.
+                            
+                            You must comply with any instructions we give you about the   Service and you acknowledge that we and our agents may give you instructions from time to time which we (or they) believe are necessary for health, safety or the quality of other telecommunications services provided to you.
+                            
+                            You acknowledge that the Service is provided to other consumers and we owe a duty to them as a whole to preserve our Network integrity and to avoid Network degradation. If, in our reasonable opinion, we consider the usage to be non-consumer it may be necessary change your Services, or manage your use of, or access to our Broadband Service as we see fit in the circumstances. These reasons include but are not limited to, any circumstances where you are running an application or program that places excessive bandwidth demands on the Broadband Service for continued periods. Our standard consumer broadband offering is truly unlimited and has no traffic management applied to it.  For the reasons set out above, on Fibre Optic services we have applied a fixed limit or a cap to the amount of data that you may download. If you would like to know more about download limits please go to our Fair Usage Policy which can be found on Fair Usage Policy page
+                            
+                            You accept that we may apply limits to your use of any Service, which we provide. We may do this for various reasons including, without limitation, if your use of the Services is not appropriate or fair or affects (or may affect) other users’ enjoyment of the Service or is significantly different from the usage that we would expect from a typical consumer user. If you exceed any limits which apply to you personally or your Tariff Plan, you should be aware that this could result in us imposing on you: limits of access to the Services; and/or reasonable charges for use of our Broadband Service outside of any download and/or upload limits on our Broadband Service; and/or charges at our normal rates for calls which we regard as being beyond a 'fair' use of our UK Calls Service. We refer to this as our ‘Fair Use’ policy. You can obtain full details of this from Customer Services or by accessing our Website. Furthermore, if under which we could impose a limit, we may also, at our sole discretion, suspend or terminate your ability to access the Services but we will only do this is if it is reasonable in all the circumstances.
+                            
+                            In addition, we reserve the right, at any time, to give priority to certain other users of our Network in preference to you. We may do this for various reasons and in various circumstances, which may include, without limitation, times when we offer new technology or products, such as voice over internet protocol (“VOIP”) which increase the demand on our Network.
+                            
+                            If you have registered your account with us, you must tell us promptly in writing if you change your name and address or there are any changes to your payment card arrangements, which may affect your payment of the Charges.</p>
+                           <li> <b>Liability</b></li>
+                           <p>Nothing in these terms shall exclude or limit our liability for death or personal injury caused by our negligence or that of our agents, or for any liability arising under Part I of the Consumer Protection Act 1987.
+
+                            We shall not be liable for any loss that is not reasonably foreseeable nor for any loss calculated by reference to profits, income, or business or loss of such profits, income, or business or for any loss of data or goodwill.
+                            
+                            In transferring you onto our Services and in providing the Services to you thereafter, we have to rely on other Network Operators and other providers of telecommunications services. Accordingly, we do not accept liability for the acts or omissions of Network Operators or other providers of telecommunication services.
+                            
+                            Our aggregate liability, whether in contract or for negligence or breach of statutory duty or otherwise, to you for any loss or damage of whatsoever nature and howsoever caused shall be limited to and in no circumstances, shall exceed £5,000 for any one incident or series of related incidents.
+                            
+                            The limitations of liability set out are in addition to any other provisions limiting our liability set out elsewhere in these Conditions.
+                            
+                            Nothing in these Conditions shall impose any liability on us in respect of non-performance of the Service where the performance claimed is outside the terms of your Contract or where such non-performance is directly due to your acts, omissions, negligence or default.
+                            
+                            The Broadband Service allows you to access the internet and you agree that your use of the internet through the Broadband Service is at your own risk and subject to all applicable laws. We recommend that you install security software on your PC before accessing the internet. We may offer you anti-virus software or other security features as part of your Tariff Plan or as an additional service. Where such anti-virus software or other security features are in addition to the standard features of your Tariff Plan we shall be entitled to charge you for its use. We expect any anti-virus software of other security features which we provide to you to be effective but we cannot guarantee that it will protect your PC from all harmful or malicious traffic disseminated on the internet. We shall not be liable for any loss or corruption of data or any losses you may suffer arising from your use of (or failure to use) any anti-virus software or other security features. You agree that it is your responsibility to protect your PC against viruses and to back up all data to protect against loss or corruption of such data. We shall have no responsibility for any goods, services, information, software or other materials that you use or obtain when using your PC whether offline or online for accessing the internet (including e-mail).
+                            
+                            We do not warrant or guarantee the accuracy or completeness of any Content provided with the Broadband Service, including without limitation, any information, sound, data, software or other materials (in whatever form). You agree that any use that you make of any such Content is at your sole risk and is subject to any third-party terms and conditions applicable to that Content.
+                            
+                            Although alarm signals can be carried across a Network, we are not responsible for lack of service or failure to deliver an alarm signal due to:
+                            
+                            your use of the Services;
+                            
+                            a Network going down;
+                            
+                            suspension of your account;
+                            
+                            failure arising from any misuse of the phone line or telephone equipment;
+                            
+                            your telephone line being migrated to our LLU Network; or
+                            
+                            for reasons, out of our control (including, without limitation, if there is a technical failure of a Network, because a Network is being tested, modified or maintained or if access to any Network is denied to us).</p>
+                           <li> <b>Matters beyond Our Reasonable Control</b></li>
+                           <p>Sometimes we are unable to do what we have agreed due to something beyond our reasonable control. If this happens we do not accept responsibility for what has occurred. You may not transfer the whole or any part of the Contract without our prior written consent. Your Contract may be administered in whole or part by another company within the POP Telecom Group.</p>
+                           <li> <b>Disputes</b></li>
+                           <p>We have a customer complaints code which explains the steps you need to take when you want to complain to us about something. You can get a copy from our website or by calling our customer service department, the number can be found on any of your telephone bills from us.</p>
+                           <li> <b>Codes of Practice</b></li>
+                           <p>We seek to provide our Services in accordance with our Code of Practice. Our code is available on our website or by calling Customer Service, the number can be found on any of your telephone bills from us.</p>
+                           <li> <b>How We Can Notify Each Other</b></li>
+                           <p>Any notice which has to be given under these Conditions shall be in writing and shall be deemed to have been given by us if, left at or sent by post to you at the address stated in your application or any other UK address you supply to us for this purpose, or by you to us at the address given on your last monthly bill. Any notice or document shall be deemed to have been delivered immediately (if delivered by hand) or 48 hours after posting. References in these Conditions to notices given to you by us “in writing” also include by email, which must be sent to your email address stated in your application or any other email address that you supply to us for the purpose. Notices given by us by e-mail shall be deemed to have been delivered the day after the day the notice is sent.</p>
+                           <li> <b>Call Monitoring</b></li>
+                           <p>Monitoring or recording of your calls may take place for our business purposes, such as quality control and training, to prevent unauthorised use of our telecommunications systems and to ensure effective systems operation and in order to prevent or detect crime.
+
+                            We make every effort to ensure the security of your communications. You are however advised that for reasons beyond our control, there is a risk that your communications may be unlawfully intercepted or accessed by those other than the intended recipient. For example, your communications may pass over third party Networks over which we have no control.
+                            
+                            Any calls you make using the Service, whether to Customer Services or otherwise, may be recorded and so you hereby grant us, or our agents, the right to monitor or record your calls, or emails for our lawful business purposes, such as quality control and training, to prevent unauthorised use of our telecommunications systems, to ensure effective systems operation and in order to prevent or detect crime.
+                            
+                            Failure by either you or us to exercise or enforce any right conferred by statute or the Contract shall not be deemed as a waiver of any such rights nor prevent the exercise or enforcement of such rights at a later date.
+                            
+                            Except in the case of any permitted assignment of the Contract, a person who is not a party to the Contract has no rights under the Contracts (Rights of Third Parties) Act 1999 or otherwise to enforce any clause of the Contract.
+                            
+                            These Conditions, and all other legal relationships between us shall be governed by English Law, unless you live in Scotland in which case Scots Law will govern, or in Northern Ireland in which case Northern Irish law will govern and are subject to the exclusive courts of England and Wales, Scotland or Northern Ireland according to which system of law governs this contract.</p>
+                           <li> <b>Directories</b></li>
+                           <p>Unless you tell us that you do not wish us to, we will include your name, address and telephone number in a telephone directory in printed/electronic format, a telephone directory available on the internet or world wide web and a directory enquiry service operated by us or by a third party. If you do not tell us that you wish to be excluded from such directories then you will be assumed to have consented to being included.</p>
+                           <li> <b>Use of Your Information</b></li>
+                           <p>We respect your personal information and undertake to comply with all applicable Data Protection legislation in place from time to time. We may hold information that you provide to us (such as by telephone on an application or Order form or registration form) or that we may obtain from another source (such as our suppliers, marketing organisations or credit reference agencies). This information (“Your Information”) may include your name, address, date of birth, gender, telephone numbers, email address, bank and Credit or Debit Card information, occupation and employment data, lifestyle information and details of how you use the Services, which may include for example and without limitation, traffic data related to your use of the Mobile Service or the UK Calls Services including, without limitation, the numbers you call, the type, date, time, location, duration, and cost of calls, messages or other communications, the addresses you send messages to, or your use of the Broadband Service, such as how long you are on-line, your browsing activities and other general information about the way you pay and manage your account.
+
+                            We may share Your Information with: companies within the POP Telecom Group; and, in the event that we undergo a re-organisation or are sold to a third party, you agree that Your Information may be transferred to that reorganised entity or third party for the purposes and subject to the terms of these Conditions.</p>
+                           <li> <b>How Your Information May be Used</b></li>
+                           <p>Your information may be held and used by us for a number of purposes and we may use third parties to support us with purposes which include, without limitation:
+
+                            processing your Orders or applications; administering your account and billing; settling accounts with those who provide related services to us; disclosing your data to banks and debit and credit card companies to validate your Credit or Debit Card details; dealing with requests, enquiries or complaints and other Customer care related activities; debt recovery (also using recovery agents and agents facilitating contact with you) and legal actions and all other general administrative and business purposes;
+                            
+                            carrying out market and product analysis of Your Information to develop and improve and to tell you about POP Telecom Group’s products and services, new developments, special offers, discounts and awards which we believe may be of personal interest to you. We may tell you about these by post or telephone. We may also tell you by email, fax, SMS, MMS, automated telephone call and via world wide web, subject to any preferences indicated by you at the time you apply to enter into this Contract or subsequently;
+                            
+                            contacting you about the products and services of carefully selected third parties and allowing you to receive advertising and marketing information from those selected third parties but without passing control of Your Information to the third party concerned;
+                            
+                            passing on data to organisations from which you have ordered any products and services; registering your details and allocating or offering you rewards, discounts or other benefits and fulfilling any requests or requirements you may have in respect of our and POP Telecom Group’s loyalty or reward programmes and other similar schemes;
+                            
+                            inclusion in a telephone directory in printed/electronic format, a telephone directory available on the internet or world wide web and a directory enquiry service operated by us or by a third party but only where you have consented to this;
+                            
+                            carrying out any activity or disclosure in connection with a legal, governmental or regulatory requirement on us or in connection with national security, legal proceedings and for the prevention and detection of crime or fraud and the prosecution of offenders or suspected offenders; and/or
+                            
+                            carrying out activities connected with the running of our business such as personnel training, quality control, Network monitoring, testing and maintenance of computer and other systems and in connection with the transfer of any part of our business in respect of which you are a Customer or a potential Customer.
+                            
+                            Terms & Conditions continued.</p>
+                        
+                       </ol></div>
+                        </div>
+                      
+                </div>
+                </section>
+           </main>
+
+
+
+    <!-- mainContent_13 -->
+    <section id="mainContent_13" class="pt-5 pb-5" style="background: #12314f; margin-top: 37px;">
+        <div class="container">
+            <div class="col-lg-9 offset-lg-2 col-12 col-sm-12">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <div class="card bg-transparent p-0 border-0">
+                            <div class="row g-0">
+                                <div class="col-2 col-sm-2 col-md-2" id="icon_supports">
+                                    <img src="images/icons/img-support.png" class="img-fluid mt-3" alt="">
+                                </div>
+                                <div class="col-10 col-sm-10 col-lg-10">
+                                    <div class="card-body pb-0">
+                                        <h2 class="card-title f-w2 text-white mb-0">CUSTOMER SERVICE</h2>
+                                        <p class="card-text text-white">0343 538 6611</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <div class="card bg-transparent p-0 border-0">
+                            <div class="row g-0">
+                                <div class="col-2 col-sm-2 col-md-2" id="icon_supports">
+                                    <img src="images/icons/img-call-center-agent.png" class="img-fluid mt-3" alt="">
+                                </div>
+                                <div class="col-10 col-sm-10 col-lg-10">
+                                    <div class="card-body pb-0">
+                                        <h2 class="card-title f-w2 text-white mb-0">SALES LINE</h2>
+                                        <p class="card-text text-white">0343 538 6666</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+
+
+
+
+<!-- footer -->
+<footer id="footerMain" class="pt-5 bg-white">
+    <div id="footer_list">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Residential</h4>
+                    <ul>
+                        <li><a href="#">Superfast Packages</a></li>
+                        <li><a href="#">Broadband</a></li>
+                        <li><a href="#">Phone</a></li>
+                        <li><a href="#">Broadband & Phone</a></li>
+                        <li><a href="#">Mobile</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Company Information</h4>
+                    <ul>
+                        <a style="text-decoration: none; color:#212529;"  href="aboutus.html"><li>About Us</li></a>
+                        <a style="text-decoration: none; color:#212529;"  href="terms.html"><li>Terms and Conditions</li></a>
+                        <li>Affiliates</li>
+                        
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Corporate Information</h4>
+                    <ul>
+                        <li>Superfast Packages</li>
+                    </ul>
+                </div>
+        
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Help and Support</h4>
+                    <ul>
+                        <a style="text-decoration: none; color:#212529;"  href="faqs.html"><li>Frequently Asked Questions</li></a>
+                        <a  style="text-decoration: none; color:#212529;"  href="signin.html"><li>My Account</li></a>
+                        <a  style="text-decoration: none; color:#212529;"  href="pay.html"><li>Make Payment</li></a> 
+                       
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Corporate Information</h4>
+                    <ul>
+                        <a  style="text-decoration: none; color:#212529;"  href="partners.html"><li>Partners</li></a>
+                            <a  style="text-decoration: none; color:#212529;"  href="partner.html"><li>Partners Second</li></a>
+                        
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Important Links</h4>
+                    <ul >
+                      
+                        <a style="text-decoration: none; color:#212529;"   href="login.html"><li>Billing login</li></a>
+                       
+                      
+                        
+                    </ul>
+                    <p>
+                        <a href="#" id="footer_logo"><img src="images/pop_telelcom_logo.png" class="img-fluid w-25" alt="#"></a>
+                        <span class="follow_us_footer">Follow Us <br />
+                            <a href="#"><img src="icons/newfacebook.png" alt=""></a>
+                             <a href="#"><img src="icons/newinstagram.png"  alt=""></a>
+                            <a href="#"><img src="icons/newtwitter.png" alt=""></a>
+                             <a href="#"><img src="icons/linkedin-logo.png" alt=""></a>
+
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- copyright -->
+    <div id="copyright" class="p-3">
+        <div class="container">
+            <p class="mb-0 text-white">Copyright Here</p>
+        </div>
+    </div>
+</footer>
+
+
+<div class="chat-popup" id="myForm" style="width: 50%; height: 50;">
+    <form action="/" class="form-container">
+      <nav style="background-color: #11304e; width: 100%;  height: 36px;">
+          <button type="button" class="btn cancel" onclick="closeForm()">X</button>
+      </nav>
+      <div class="company-header" dir="rtl" style="background-image: url(&quot;https://messenger.providesupport.com/resource/avizur/190019.png&quot;);"><img src="https://messenger.providesupport.com/resource/avizur/190019.png" alt=""></div>
+     
+       <div style="text-align: center;">
+      <label for="name"><b>Your Name</b></label><br>
+      <textarea  name="name" id="nametext" required></textarea><br>
+      <label for="number"><b>Contact Number</b></label><br>
+      <textarea  name="number" required></textarea><br>
+      <label for="email"><b>Email</b></label><br>
+      <textarea  name="email" required></textarea><br>
+      <label for="msg"><b>Message</b></label><br>
+      <textarea style="height: 100px;" name="msg" required></textarea><br>
+  </div>
+      <button type="submit" class="btn" style="margin-bottom: 10px;">Send</button><br>
+      
+    </form>
+  </div>
+ 
+
+<!-- js libraries -->
+<!-- <script src="js/jquery.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/app.js"></script> -->
+    <!--Jquery3.6.0 and Bootstrap 5 js cdn added here-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" > </script>
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    
+<script>
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+ 
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+
+  </script>
+
+</body>
+</html>

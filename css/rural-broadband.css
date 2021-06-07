@@ -1,0 +1,392 @@
+body.rural-broadband{ background: #fff!important; }
+
+/* global  */
+
+.rural-broadband h2.head_border_bottom_yellow{ font-size: 3rem; position: relative; }
+.rural-broadband h2.head_border_bottom_yellow span{ font-size: 4.50rem; }
+.rural-broadband h2.head_border_bottom_yellow::after{
+    content: '';
+    width: 100px;
+    height: 8px;
+    background: #ff9000;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    border-radius: 0px 0px 0px 0px;
+}
+
+/* edit */
+body.no-contract #mainContent_1 .box_offers .box_header_text h3{ _font-size: 1.80rem; }
+body.no-contract #mainContent_1 .box_offers .box_header_text h3 span{ _font-size: 2.40rem; _margin-top: .5rem; }
+
+/* fiber_advanced_mainBanner  */
+#rural-broadband_mainBanner{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+/* Button used to open the chat form - fixed at the bottom of the page */
+
+
+
+
+
+.open-button {
+    background-color: #11304e;
+    color: white;
+    font-size: 25px;
+    padding: 0px 11px;
+    border: none;
+    cursor: pointer;
+    position: sticky;
+    bottom: 23px;
+   right: 28px;
+    transition: all .25s ease-in-out;
+     position: fixed;
+    /* display: inline-flex; */
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+    height: 54px;
+    border-radius: 5px;
+  }
+  .open.button.hide {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .open.button.svg {
+    fill: #000;
+    width: 24px;
+    height: 12px;
+  }
+  .img-fluid {
+    max-width: 87%;
+    height: auto;
+}
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: sticky;
+    /* position: relative; */
+    bottom: 0;
+    right: 15px;
+   
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+   
+    padding: 10px;
+    background-color: white;
+     height:650px;
+      overflow-y:auto;
+      margin-top: 2rem;
+      border: #11304e;
+      border-style: solid;
+      border-radius: 5px;
+      border-width: 0.5rem;
+  }
+
+
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 50%;
+    height: 45px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+ 
+  }
+ 
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #11304e;
+    color: white;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+  }
+
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color:#ff9000;
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    border-radius: unset!important;
+    /* text-align: end!important; */
+  }
+
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+#rural-broadband_banner_shadow{
+    top: -7.6rem;
+    left: 133px;
+    z-index: -1;
+}
+
+#rural-broadband_banner h1{ 
+    font-size: 6rem;
+    color: #11304e; 
+    line-height: 1; 
+    position: relative;
+}
+#rural-broadband_banner h1::before{ 
+    content: '';
+    position: absolute;
+    background: url(../images/icons/human.png) no-repeat;
+    width: 72px;
+    height: 154px;
+    top: -2rem;
+    left: 22.3rem;
+}
+/* #rural-broadband_banner h1{  
+    display: block;
+    position: relative;
+    z-index: 1;
+} */
+#rural-broadband_banner h1 span.banner_text_1{ 
+    _font-size: 5.7rem;
+    _font-weight: 400;
+    _line-height: 56px;
+    _margin-top: 21px;
+    _margin-bottom: 10px;
+    font-size: 3.2rem;
+}
+#rural-broadband_banner h1 span.banner_text_2{
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+}
+
+#rural-broadband_banner h1 span i{ font-style: normal; }
+#rural-broadband_banner p.price{ 
+    font-size: 4.80rem; 
+    color: #11304e;
+    position: relative;
+    line-height: 88px;
+}
+#rural-broadband_banner p.price span{
+    font-size: 3rem;
+}
+#rural-broadband_banner p.btn_submit_buy_now button{ 
+    font-size: 1.9rem; 
+    border-color: #ff9c00; 
+    color: #ff9c00; 
+    border-radius: 0px; 
+    border-width: 2px;
+    position: relative;
+    padding: 5px 23px;
+}
+
+#rural-broadband_banner h1,
+#rural-broadband_banner p{ padding-left: 6rem; }
+
+#rural-broadband_banner::before{
+    position: absolute;
+    content: '';
+    background: url(../images/img-rocket-after.png) no-repeat;
+    width: 123px;
+    height: 268px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+
+
+/* broadband_content_1 */
+#rural-broadband_content{
+    padding-top: 8rem;
+    background: url(../images/broadband_bg_shape.png) no-repeat 114% -41%;
+}
+
+#rural-broadband_content h2.header_text{
+    font-size: 3rem;
+    position: relative;
+}
+#rural-broadband_content h2.header_text::after{
+    content: '';
+    width: 150px;
+    height: 8px;
+    background: #ff9000;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    border-radius: 0px 40px 40px 0px;
+}
+
+
+#rural-broadband_info p{
+    font-size: 1.80rem;
+    position: relative;
+}
+
+#rural-broadband_info p { 
+    color: #4d4d4d;
+}
+
+#rural-broadband_content p a{ 
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+#rural-broadband_content .list-group li:first-child{ border-top: 0; }
+#rural-broadband_content .list-group li{
+    font-size: 1.70rem;
+    border-left: none;
+    border-right: none;
+    padding-left: 0;
+    font-weight: 600;
+    border-bottom: 2px solid #e5e3e2;
+    background: none;
+    color: #11304e;
+}
+#rural-broadband_content .list-group li::after{
+    content: '';
+    background: url(../images/icons/thin_arrow.png) no-repeat;
+    position: absolute;
+    width: 45px;
+    height: 36px;
+    right: 0;
+    top: 29px;
+}
+
+
+#rural-broadband_content #shapes_bg #triagle_1{ position: absolute; right: -24rem; top: 3.50rem; }
+#rural-broadband_content #shapes_bg #triagle_2{ position: absolute; right: -32.5rem; top: 3.50rem;transform: rotate(85deg); }
+#rural-broadband_content #shapes_bg #triagle_3{ position: absolute; right: -31rem; top: 12rem; transform: rotateZ(25deg); }
+
+/* rural-broadband_content_top */
+#rural-broadband_content_top{
+    position: relative;
+    padding-top: 5rem!important;
+}
+#rural-broadband_content_top::before{
+    content: '';
+    position: absolute;
+    background: url(../images/rural-broadband_bg_shape.png) no-repeat;
+    background-size: contain;
+    background-position: 0 30%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#rural-broadband_content_top #rural-broadband_content_top_head_1::after{
+    content: '';
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    background: #ef9200;
+    width: 21%;
+    height: 4px;
+}
+#rural-broadband_content_top #rural-broadband_content_top_head_2::after{
+    content: '';
+    position: absolute;
+    background: #ef9200;
+    width: 21%;
+    height: 4px;
+    bottom: 0%;
+    left: 40%;
+}
+
+@media (max-width: 1024px){
+    #rural-broadband_content #shapes_bg #rocket_up{ right: -19rem; }
+    #rural-broadband_content #shapes_bg #triagle_1{ right: -15rem;  }
+    #rural-broadband_content #shapes_bg #triagle_2{ right: -22.5rem; }
+    #rural-broadband_content #shapes_bg #triagle_3{  right: -20rem;  }
+    #rural-broadband_content h2{ font-size: 2rem; }
+}
+
+@media (max-width: 768px){
+    #broadband_content_1{
+        padding-top: 0!important;
+    }
+    #rural-broadband_banner h1{     
+        font-size: 6rem;
+        text-align: center!important;
+        padding-left: 0; 
+    }
+    #rural-broadband_banner h1 span.banner_text_1{
+        font-size: 3rem;
+        margin-top: -9px;
+    }
+    #rural-broadband_banner p{
+        padding-left: 0;
+    }
+    #rural-broadband_banner p.btn_submit_buy_now {
+        text-align: center!important;
+    }
+    #rural-broadband_banner p.btn_submit_buy_now button{
+        padding: 6px 17px;
+        font-size: 1.40rem;
+    }
+    #rural-broadband_banner p.price{
+        font-size: 3rem;
+        text-align: center!important;
+    }
+    #rural-broadband_banner h1 span.banner_text_2{
+        position: revert;
+    }
+    #rural-broadband_banner h1::after{
+        top: -48px;
+        left: 201px;
+    }
+    #rural-broadband_banner h1::before{
+        left: 15rem;
+        bottom: -8px;
+    }
+    #rural-broadband_content .list-group li{
+        font-size: 1.3rem;
+        padding-right: 38px;
+    }
+    #rural-broadband_content h2.header_text{
+        font-size: 2rem;
+    }
+    #rural-broadband_content_top{
+        padding-top: 0!important;
+    }
+}
+@media (max-width: 576px){
+.form-container{
+    width: 200%;
+    height: 500px;
+    margin-top: 2rem;
+    border: #11304e;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5rem;
+ }
+ #rural-broadband_content #shapes_bg #triagle_1{
+    display: none;
+}
+#rural-broadband_content #shapes_bg #triagle_2{
+    display: none;
+}
+#rural-broadband_content #shapes_bg #triagle_3{
+    display: none;
+}
+ .form-container  textarea {
+    width: 87%;
+}
+}
+
+@media (min-width: 2560px){
+    .container{
+        max-width: 1658px;
+    }
+}

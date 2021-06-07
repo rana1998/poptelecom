@@ -1,0 +1,576 @@
+body.faqs{ background: #fff!important; }
+
+/* global  */
+
+.faqs h2.head_border_bottom_yellow{ font-size: 3rem; position: relative; }
+.faqs h2.head_border_bottom_yellow span{ font-size: 4.50rem; }
+.faqs h2.head_border_bottom_yellow::after{
+    content: '';
+    width: 100px;
+    height: 8px;
+    background: #ff9000;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    border-radius: 0px 0px 0px 0px;
+}
+#no_contract_content {
+    padding-top: 3rem;
+    background: url(../images/broadband_bg_shape.png) no-repeat 114% -41%;
+}
+#faqs_text_content{
+    position: relative;
+}
+.container-fluid{
+        padding-left: 0rem!important;
+}
+#underlined{ 
+    content: '';
+    width: 220px;
+    height: 5px;
+    background: #ff9000;
+    position: absolute;
+    top: 60px;
+    left: 14px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+/* edit */
+body.no-contract #mainContent_1 .box_offers .box_header_text h3{ _font-size: 1.80rem;}
+
+body.no-contract #mainContent_1 .box_offers .box_header_text h3 span{ _font-size: 2.40rem; _margin-top: .5rem; }
+
+/* fiber_advanced_mainBanner  */
+
+#mainContent_1 .box_offers .box_header_text{border-radius: 22px; }
+#faqs_banner{
+    position: relative;
+
+}
+
+#faqs_mainBanner{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+
+}
+
+#faqs_banner_shadow{
+    top: -7.6rem;
+    left: 133px;
+    z-index: -1;
+}
+#boxes{
+    padding: 10px;
+    border: 1px;
+    border-color: black;
+    border-radius: 2.5rem;
+    box-shadow: 5px 10px 20px inset;
+}
+
+#faqs_banner h1{ 
+    font-size: 3rem; 
+    color: #11304e; 
+    line-height: 1; 
+    position: relative;
+    text-align: center!important;
+}
+#faqs_banner h1::before{
+ 
+position: absolute;
+ 
+width: 72px;
+ 
+height: 154px;
+ 
+top: -3rem;
+ 
+left: 21rem;
+}
+/* .pb-5 {
+    padding-bottom: 0rem !important; 
+} */
+
+
+hr {
+    margin: -1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+}
+/*#faqs_banner h1{  
+    display: block;
+    position: relative;
+    z-index: 1;
+} */
+#faqs_banner h1 span.banner_text_1{ 
+    font-size: 5.7rem;
+    font-weight: 400;
+    line-height: 56px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.banner_text_1
+{
+    color: #ff9c00;
+    font-size: 8rem;
+}
+.px-0 {
+    padding-right: 8px !important;
+    /* padding-left: 33px !important; */
+}
+
+#faqs_banner h1 span.banner_text_2{
+    font-size: 3.5rem;
+
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+#faqs_banner h1 span i{ font-style: normal; }
+#faqs_banner p.price{ 
+    font-size: 4.80rem; 
+    color: #11304e;
+    position: relative;
+    line-height: 88px;
+}
+
+#faqs_banner h1::before{
+    /* content: '';
+    position: absolute;
+    background: url(../images/icons/human.png) no-repeat;
+    width: 72px;
+    height: 154px;
+    top: -2.4rem; */
+  
+    /* right: -7rem; */
+}
+
+
+#faqs_banner::before{
+    position: absolute;
+    content: '';
+    background: url(../images/patternbg.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+   
+}
+
+#faqs_banner p.price span{
+    font-size: 3rem;
+}
+#faqs_banner p.btn_submit_buy_now button {
+    font-size: 1.9rem;
+    border-color: #ff9c00;
+    color: #ff9c00;
+    border-radius: 0px;
+    border-width: 2px;
+    position: relative;
+    text-align: center;
+    padding: 5px 23px;
+    margin-top: 31px;
+    float: center;
+    /* text-align: center; */
+    background-color: white;
+}
+
+#faqs_banner::before{
+    position: absolute;
+    content: '';
+    background: url(../images/patternbg.png) no-repeat;
+    width: 123px;
+    height: 268px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+#number_btn a{
+    background-color: white;
+}
+
+/* broadband_content_1 */
+#faqs_content{
+    padding-top: 3rem;
+    background: url(../images/broadband_bg_shape.png) no-repeat 114% -41%;
+}
+
+#faqs_content h2.header_text{
+    font-size: 3rem;
+    position: relative;
+}
+#faqs_content h2.header_text::after{
+    content: '';
+    width: 150px;
+    height: 8px;
+    background: #ff9000;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    border-radius: 0px 40px 40px 0px;
+}
+
+
+#contract_info p{
+    font-size: 1.80rem;
+    position: relative;
+}
+
+#contract_info p { 
+    color: #4d4d4d;
+}
+
+#faqs_content p a{ 
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+#faqs_content .list-group li:first-child{ border-top: 0; }
+#faqs_content .list-group li{
+    font-size: 1.5rem;
+    border-left: none;
+    border-right: none;
+    padding-left: 0;
+    font-weight: 600;
+    border-bottom: 2px solid #e5e3e2;
+    background: none;
+    color: #11304e;
+}
+#faqs_content .list-group li::after{
+    content: '';
+    background: url(../images/icons/thin_arrow.png) no-repeat;
+    position: absolute;
+    width: 45px;
+    height: 36px;
+    right: 0;
+    top: 29px;
+
+}
+#faqbar p{
+text-align: center;
+ font-size: 3.1rem;
+  font-family: Helvetica;
+  font-weight: bolder;
+   color:white; 
+   text-align: left;
+    margin-left:1rem; 
+    letter-spacing: 1.5px;
+}
+#faqbar_para p{
+    text-align: center;
+     font-size: 31.5px; 
+     line-height:2; 
+     margin-top: 2px;
+      margin-bottom: 1rem;
+       color: #7e7d7d;
+       font-weight: 600;
+}
+#small_line hr{
+    width:200px;
+    height: 5px;
+     background: #ff9000;
+      margin-left: 40%;
+       opacity: 100;
+}
+
+#faqs_content #shapes_bg #triagle_1{ position: absolute; right: -24rem; top: 3.50rem; }
+#faqs_content #shapes_bg #triagle_2{ position: absolute; right: -32.5rem; top: 3.50rem;transform: rotate(85deg); }
+#faqs_content #shapes_bg #triagle_3{ position: absolute; right: -31rem; top: 12rem; transform: rotateZ(25deg); }
+
+@media (max-width: 1024px){
+    #faqs_content #left_img_content img{
+        width: 100%;
+    }
+    #faqs_text_content{
+        padding-top: 5rem;
+    }
+    #faqs_content{
+        background: url(../images/broadband_bg_shape.png) no-repeat 114% 2%;
+    }
+    #faqs_content .list-group li::after {
+        height: 100%;
+        right: 0;
+        top: 0;
+        background-position: center;
+    }
+}
+/* Button used to open the chat form - fixed at the bottom of the page */
+
+
+
+@media (min-width: 1200px){
+   .img-fluid.shadow{
+       /* height: fit-content!important; */
+       max-width: 97%!important;
+   }
+ }
+
+.open-button {
+    background-color: #11304e;
+    color: white;
+    font-size: 25px;
+    padding: 0px 11px;
+    border: none;
+    cursor: pointer;
+    position: sticky;
+    bottom: 23px;
+   right: 28px;
+    transition: all .25s ease-in-out;
+     position: fixed;
+    /* display: inline-flex; */
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+    height: 54px;
+    border-radius: 5px;
+  }
+  .open.button.hide {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .open.button.svg {
+    fill: #000;
+    width: 24px;
+    height: 12px;
+  }
+  .img-fluid {
+    max-width: 87%;
+    height: auto;
+}
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: sticky;
+    /* position: relative; */
+    bottom: 0;
+    right: 15px;
+   
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+   
+    padding: 10px;
+    background-color: white;
+     height:650px;
+      overflow-y:auto;
+      margin-top: 2rem;
+      border: #11304e;
+      border-style: solid;
+      border-radius: 5px;
+      border-width: 0.5rem;
+  }
+
+
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 50%;
+    height: 45px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+ 
+  }
+  .btn-check:checked + .btn-info, .btn-check:active + .btn-info, .btn-info:active, .btn-info.active, .show > .btn-info.dropdown-toggle {
+    color: #000;
+    font-color: gray;
+    background-color: #c2c4c4;
+    border-color: #11304e;
+    color: #11304e;
+  }
+  .btn-check:focus + .btn-info, .btn-info:focus {
+      color: white;
+  }
+  .btn-info:hover {
+      color: white;
+  }
+  .btn-check:checked + .btn-info, .btn-check:active + .btn-info, .btn-info:active, .btn-info.active, .show > .btn-info.dropdown-toggle {
+      color: #041a2e;
+  }
+.btn-info{
+    color: white;
+}
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #11304e;
+    color: white;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+  }
+
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color:#ff9000;
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    border-radius: unset!important;
+    /* text-align: end!important; */
+  }
+
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+#boxes{
+    width: 24rem; height: 218px; background: white;   border-radius: 2.5rem;
+    box-shadow: 1rem;
+    box-shadow: inline;
+}
+@media only screen and (max-width: 576px) and (min-width:320px){
+    #col-sm-5 {
+    flex: 0 0 auto;
+    float: right!important;
+    width: 41.6666666667%;
+}
+#aboutus_banner h1::before {
+    display: none!important;
+     position: absolute;
+     background: url(../images/icons/human.png) no-repeat;
+     width: 72px;
+     height: 154px;
+     top: -1.6rem;
+     left: 267px;
+     /* right: -7rem; */
+ }
+
+body.faqs{
+    /* width: 115%!important; */
+}
+#pages_content{
+    /* padding-left: 1.5rem; */
+   
+}
+#pages_content p{
+    font-size: 14px !important;
+
+}
+#pages_content .faqpara{
+    margin-left: 17%!important;
+}
+#mainContent_1 p.offers_top span {
+    font-size: 0.8rem;
+}
+#faqs_banner h1::before {
+    /* left: 14rem; */
+}
+#mainContent_1 p.offers_top::after{
+    top: 20px;
+}
+.form-container{
+    width: 200%;
+    height: 500px;
+    margin-top: 2rem;
+    border: #11304e;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5rem;
+ }
+ #faqs_content #shapes_bg #triagle_1{
+    display: none;
+}
+#faqs_content #shapes_bg #triagle_2{
+    display: none;
+}
+#faqs_content #shapes_bg #triagle_3{
+    display: none;
+}
+ .form-container  textarea {
+    width: 87%;
+}
+.px-0 {
+    padding-right: 8px !important;
+   padding-left: 33px !important; 
+}
+
+}
+@media only screen and  (max-width: 768px) and (min-width:600px){
+    #faqs_banner h1{     
+        font-size: 2rem;
+        text-align: left!important;
+        padding-left: 0; 
+    }
+    #aboutus_banner h1::before {
+        display: none!important;
+         position: absolute;
+         background: url(../images/icons/human.png) no-repeat;
+         width: 72px;
+         height: 154px;
+         top: -1.6rem;
+         left: 267px;
+         /* right: -7rem; */
+     }
+    #faqs_banner h1 span.banner_text_1{
+        _font-size: 3rem;
+    }
+    #faqs_banner p{
+        padding-left: 0;
+        line-height: 1.7rem!important;
+    }
+    #faqs_banner p.btn_submit_buy_now {
+        text-align: left!important;
+    }
+    #faqs_banner p.btn_submit_buy_now button{
+        padding: 6px 17px;
+        font-size: 1.40rem;
+
+    }
+    #faqs_banner h1 span.banner_text_2{
+        position: revert;
+        
+    }
+      #faqs_banner h1 span.banner_text_2:after{
+     content: '';
+    position: absolute;
+    background: url(../images/icons/human.png) no-repeat;
+    width: 72px;
+    height: 154px;
+    top: 16px;
+    right: 0px;
+    color: #11304e;
+    }
+    #faqs_banner h1::after{
+        top: -48px;
+        left: 201px;
+    }
+ 
+    #faqs_content #shapes_bg #rocket_up{ right: -19rem; }
+    #faqs_content #shapes_bg #triagle_1{ right: -15rem;  }
+    #faqs_content #shapes_bg #triagle_2{ right: -21.5rem; }
+    #faqs_content #shapes_bg #triagle_3{  right: -20rem;  }
+    #faqs_content h2.header_text{ font-size: 2rem; }
+    #faqs_content .list-group li{
+        font-size: 1.3rem;
+        padding-right: 38px;
+    }
+    #faqs_banner::before{
+        left: 0;
+    }
+}
+
+
+
+    /* styling for the main content */
+
+    /*Faq line bar in the pages content*/
+
+    @media (min-width: 2560px){
+        .container{
+            max-width: 1658px;
+        }
+    }

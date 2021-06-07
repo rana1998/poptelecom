@@ -1,0 +1,348 @@
+body.sim_only{ background: #fff!important; }
+
+/* mainBanner  */
+#sim_only_mainBanner{
+    position: relative;
+    z-index: 3;
+    padding-bottom: 5rem!important;
+    background: #fff;
+}
+
+#sim_only_banner_shadow{
+    background: url(../images/img-banner-before.png) no-repeat;
+    background-position: center;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 14px;
+    z-index:  1;
+}
+
+#sim_only_banner h1{ 
+    _font-size: 3rem; 
+    color: #11304e; 
+    line-height: 1; 
+    position: relative;
+    _margin-top: 4rem;;
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+
+
+
+
+
+.open-button {
+    background-color: #11304e;
+    color: white;
+    font-size: 25px;
+    padding: 0px 11px;
+    border: none;
+    cursor: pointer;
+    position: sticky;
+    bottom: 23px;
+   right: 28px;
+    transition: all .25s ease-in-out;
+     position: fixed;
+    /* display: inline-flex; */
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+    height: 54px;
+    border-radius: 5px;
+  }
+  .open.button.hide {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .open.button.svg {
+    fill: #000;
+    width: 24px;
+    height: 12px;
+  }
+  .img-fluid {
+    max-width: 87%;
+    height: auto;
+}
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: sticky;
+    /* position: relative; */
+    bottom: 0;
+    right: 15px;
+   
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+   
+    padding: 10px;
+    background-color: white;
+     height:650px;
+      overflow-y:auto;
+      margin-top: 2rem;
+      border: #11304e;
+      border-style: solid;
+      border-radius: 5px;
+      border-width: 0.5rem;
+  }
+
+
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 50%;
+    height: 45px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+ 
+  }
+ 
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #11304e;
+    color: white;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+  }
+
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color:#ff9000;
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    border-radius: unset!important;
+    /* text-align: end!important; */
+  }
+
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+#sim_only_banner h1{  
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+#sim_only_banner h1 span.banner_text_1{ 
+    _font-size: 4.7rem;
+    _font-weight: 400;
+    _line-height: 56px;
+}
+#sim_only_banner h1 span.banner_text_2{
+    _position: absolute;
+    _right: -4rem;
+    _bottom: -40px;
+}
+#sim_only_banner h1 span i{ font-style: normal; }
+#sim_only_banner h1::before{
+    position: absolute;
+    content: '';
+    background: url(../images/icons/rocket-orange.png) no-repeat;
+    width: 42px;
+    height: 42px;
+    right: -111px;
+    bottom: -4px;
+}
+#sim_only_banner p.price{ 
+    font-size: 4.80rem; 
+    color: #11304e;
+    position: relative;
+    line-height: 88px;
+}
+#sim_only_banner p.price span{
+    font-size: 3rem;
+}
+#sim_only_banner p.btn_submit_buy_now button{ 
+    font-size: 1.9rem; 
+    border-color: #ff9c00; 
+    color: #ff9c00; 
+    border-radius: 0px; 
+    border-width: 2px;
+    position: relative;
+    padding: 5px 23px;
+}
+
+#sim_only_banner h1,
+#sim_only_banner p{ padding-left: 76px; }
+
+#sim_only_banner::before{
+    position: absolute;
+    content: '';
+    background: url(../images/img-rocket-after.png) no-repeat;
+    width: 123px;
+    height: 268px;
+    top: 0;
+    _left: 82px;
+    z-index: 9;
+}
+
+/* broadband_content_1 */
+#sim_only_content_1{
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    background: url(../images/broadband_bg_shape.png) no-repeat 114% -66%;;
+}
+
+#sim_only_content_1 h2{
+    font-size: 3rem;
+    position: relative;
+}
+
+#sim_only_content_1 h2::after{
+    content: '';
+    width: 150px;
+    height: 8px;
+    background: #ff9000;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    border-radius: 0px 40px 40px 0px;
+}
+
+#sim_only_content_1 p{ 
+    color: #4d4d4d;
+}
+#sim_only_content_1 p a{ 
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+#circle_bg_pos{
+    z-index: -1;
+    left: -22rem;
+    top: 10rem;
+    width: 438px;
+    height: 438px;
+    background: #f9f7f6;
+    border-radius: 50%;
+}
+
+
+
+#sim_only_content_1 .list-group li:first-child{ border-top: 0; }
+#sim_only_content_1 .list-group li{
+    font-size: 1.50rem;
+    border-left: none;
+    border-right: none;
+    padding-left: 0;
+    font-weight: 600;
+    border-bottom: 2px solid #e5e3e2;
+    background: none;
+}
+#sim_only_content_1 .list-group li::after{
+    content: '';
+    background: url(../images/icons/thin_arrow.png) no-repeat;
+    position: absolute;
+    width: 45px;
+    height: 36px;
+    right: 0;
+    top: 29px;
+}
+
+
+#sim_only_content_1 #shapes_bg #triagle_1{ position: absolute; right: -24rem; top: 3.50rem; }
+#sim_only_content_1 #shapes_bg #triagle_2{ position: absolute; right: -32.5rem; top: 3.50rem;transform: rotate(85deg); }
+#sim_only_content_1 #shapes_bg #triagle_3{ position: absolute; right: -31rem; top: 12rem; transform: rotateZ(25deg); }
+
+@media (max-width: 1024px){
+    #sim_only_content_1 #shapes_bg #rocket_up{ right: -19rem; }
+    #sim_only_content_1 #shapes_bg #triagle_1{ right: -15rem;  }
+    #sim_only_content_1 #shapes_bg #triagle_2{ right: -22.5rem; }
+    #sim_only_content_1 #shapes_bg #triagle_3{  right: -20rem;  }
+    #sim_only_content_1 h2{ font-size: 2rem; }
+}
+
+@media (max-width: 768px){
+    #sim_only_content_1{
+        padding-top: 0!important;
+    }
+    #sim_only_banner h1{     
+        font-size: 2rem;
+        text-align: center!important;
+        padding-left: 0; 
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0;
+    }
+    #sim_only_banner h1 span.banner_text_1{
+        font-size: 6rem;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+    #sim_only_banner p{
+        padding-left: 0;
+    }
+    #sim_only_banner p.btn_submit_buy_now {
+        text-align: center!important;
+    }
+    #sim_only_banner p.btn_submit_buy_now button{
+        padding: 6px 17px;
+        font-size: 1.40rem;
+    }
+    #sim_only_banner p.price{
+        font-size: 3rem;
+        text-align: center!important;
+    }
+    #sim_only_banner h1 span.banner_text_2{
+        position: revert;
+    }
+    #sim_only_banner h1::after{
+        top: -48px;
+        left: 201px;
+    }
+    #sim_only_banner h1::before{
+        left: 16rem;
+        bottom: -29px;
+    }
+    #sim_only_content_1 .list-group li{
+        font-size: 1.3rem;
+        padding-right: 38px;
+    }
+    #sim_only_banner::before{
+        left: 0;
+    }
+}
+@media (max-width: 576px){
+.form-container{
+    width: 200%;
+    height: 500px;
+    margin-top: 2rem;
+    border: #11304e;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5rem;
+ }
+ #sim-only_content #shapes_bg #triagle_1{
+    display: none;
+}
+#sim-only_content #shapes_bg #triagle_2{
+    display: none;
+}
+#sim-only_content #shapes_bg #triagle_3{
+    display: none;
+}
+ .form-container  textarea {
+    width: 87%;
+}
+}
+
+@media (min-width: 2560px){
+    .container{
+        max-width: 1658px;
+    }
+}

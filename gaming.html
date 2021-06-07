@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Telecom</title>
+    <!-- bootstrap css -->
+    <!-- <link rel="stylesheet" href="css/custom.css"> -->
+    <!-- Bootstrap 5 css minified version cdn added here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- pages css -->
+    <link rel="stylesheet" href="css/gaming.css">
+</head>
+<body class="pages gaming">
+    <!-- header -->
+    <header id="mainHeader">
+        <div class="mainHeader_contact_info p-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 col-12">
+                        <!-- <button class="open-button" style=" height: 35px; float:right;margin-right: 14px;" onclick="openForm()"><img src="icons/email.png" style="height: 23px; width: 25px;margin-bottom: 6px;">&nbsp;Chat Offline</button> -->
+                        <p id="top_email" class="text-start mb-0 text-white">
+                            <span class="d-block d-lg-inline d-sm-block me-1"><img src="images/icons/email.png" alt="#" style="width: .9rem;"> Email:abc@poptelecom.com</span>
+                            <span class="d-block d-lg-inline d-sm-block"><img src="images/icons/call.png" alt="#" class="d-inline-block" style="width: .9rem;"> Customer Support : (000) 0000 000</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 col-12">
+                        <p class="text-start text-sm-end text-lg-end mb-0 text-white">
+                            <span class="d-block d-lg-inline d-sm-block">
+                                <a href="#" class="text-decoration-none text-white">
+                                    <img src="images/icons/pound_symbol.png" alt="#" class="d-inline-block img-fluid" style="width: .8rem; margin-top: -3px;"> Make Payment
+                                </a>
+                            </span>
+                            <span id="top_social_media" class="ms-4 text-end d-none d-sm-none d-lg-inline-block">
+                                <a href="#" class="d-inline-block">
+                                    <img src="icons/facebook.png" alt="#">
+                                </a>
+                                <a href="#" class="d-inline-block">
+                                    <img src="icons/instagram.png" alt="#">
+                                </a>
+                                <a href="#" class="d-inline-block">
+                                    <img src="icons/linkein.png" alt="#">
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="mainHeader_nav_menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg p-0">
+                    <a class="navbar-brand p-0" href="index.html" title="#">
+                        <img src="images/pop_telelcom_logo.png" alt="#" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile_view_menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="popTelcomMenu">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link active" href="broadband.html">Broadband</a></li>
+                            <li class="nav-item"><a class="nav-link" href="tv.html">TV</a></li>
+                            <li class="nav-item"><a class="nav-link" href="fibre-advanced.html">Fibre Advanced</a></li>
+                            <li class="nav-item"><a class="nav-link" href="fibre-infinity.html">Fibre Infinity</a></li>
+                            <li class="nav-item"><a class="nav-link" href="no-contract.html">No Contract</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Bespoke</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="sim-only.html">SIM Only</a></li>
+                                    <li><a class="dropdown-item" href="rural-broadband.html">Rural Broadband</a></li>
+                                    <li><a class="dropdown-item" href="over-60s.html">Broadband for the over 60s</a></li>
+                                    <li><a class="dropdown-item" href="gaming.html">Gaming</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Landline</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="12-99.html">£12.99 Landline Only</a></li>
+                                    <li><a class="dropdown-item" href="1949.html">£19.49 Line and Anytime Calls</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="aboutus.html">About</a>
+                        <ul class="dropdown-menu">
+                   
+                                    <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+                                    <li><a class="dropdown-item" href="guide.html">Guides</a></li>
+                                    <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link active" href="business.html">Business</a></li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav d-flex extra_menu">
+                        <li class="nav-item me-3" id="search_btn"><a class="nav-link active" data-bs-toggle="collapse" data-bs-target="#searchBar" href="#">
+                            <img src="images/icons/search.png" class="img-fluid" alt="#" width="14" height="16">
+                        </a></li>
+                        <li class="nav-item" id="number_btn"><a class="btn btn-outline-secondary" href="#"><img src="images/icons/call_header_ring.png" class="img-fluid" alt="#"> (000) 000 000</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- /end header -->
+
+    <!-- extra menu for mobile and ipad and tabs view -->
+    <div id="mobile_view_menu" class="collapse fade">
+        <button class="btn btn-lg" id="btn_close_icon" data-bs-toggle="collapse" data-bs-target="#mobile_view_menu" href="#"></button>
+        <div class="container">
+            <div class="navbar navbar-expand-lg">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="broadband.html">Broadband</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tv.html">TV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fibre-advanced.html">Fibre Advanced</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fibre-infinity.html">Fibre Infinity</a></li>
+                    <li class="nav-item"><a class="nav-link" href="no-contract.html">No Contract</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Bespoke</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sim-only.html">SIM Only</a></li>
+                            <li><a class="dropdown-item" href="rural-broadband.html">Rural Broadband</a></li>
+                            <li><a class="dropdown-item" href="over-60s.html">Broadband for the over 60s</a></li>
+                            <li><a class="dropdown-item" href="gaming.html">Gaming</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Landline</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="12-99.html">£12.99 Landline Only</a></li>
+                            <li><a class="dropdown-item" href="1949.html">£19.49 Line and Anytime Calls</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">About</a>
+                       <ul class="dropdown-menu">
+                           <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
+                           <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+                           <li><a class="dropdown-item" href="guide.html">Guides</a></li>
+                           <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                       </ul>
+                   </li>
+                    <li class="nav-item"><a class="nav-link active" href="business.html">Business</a></li>
+                </ul>
+            </div>
+
+            <ul class="list-group list-group-horizontal-lg mb-5">
+                <li class="list-group-item">
+                    <a href="#" class="text-dark">
+                        <img src="images/icons/call_header_ring.png" class="img-fluid" alt="#"> (000) 000 000</a>
+                </li>
+            </ul>
+
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">
+                    <a href="#">
+                        <img src="icons/facebook.png" alt="#">
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">
+                        <img src="icons/instagram.png" alt="#">
+                    </a>
+                </li> 
+                <li class="list-group-item">
+                    <a href="#">
+                        <img src="icons/linkein.png" alt="#">
+                    </a>
+                </li>           
+            </ul>
+        </div>
+    </div>
+
+    <!-- search bar for desktop, tabs, ipad and mobile view -->
+    <div id="searchBar" class="collapse fade">
+        <button class="btn btn-lg" id="btn_close_icon" data-bs-toggle="collapse" data-bs-target="#searchBar" href="#"></button>
+        <div class="container">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="row g-0">
+                    <div class="form-floating col-lg-11 col-11">
+                        <input type="text" class="form-control" name="s" id="searchId" placeholder="Search here">
+                        <label for="searchId">Search here</label>
+                    </div>
+                    <div class="col-lg-1 col-1">
+                        <button class="btn btn-lg btn-primary btn-block" type="button" id="search_btn_submit"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /search bar -->
+
+    <!-- main banner -->
+    <div id="gaming_banner" class="relative">
+        <section id="gaming_mainBanner" class="clearfix">
+            <div id="gaming_banner_shadow" class="position-absolute">
+                <img src="images/img-banner-before.png" class="d-inline-block img-fluid" style="display: none!important;" alt="#" width="990">
+            </div>
+            <div class="container">
+                <div class="align-items-xl-center row">
+                    <div class="col-lg-5 col-sm-5 col-12" id="banner_left">
+                        <h1 class="display-4 f-w1 mb-3 text-start text-uppercase">Best <span class="d-block banner_text_1 f-w1 h5_c" style="color: #ff9c00;">Gaming</span>Broadband</h1>
+                        
+                        <p class="text-start mb-0 btn_submit_buy_now">
+                            <button class="btn btn-lg f-w2">Buy Now <span class="ms-2"><img src="images/icons/btn_arrow.png" width="24" height="24" alt="#"></span></button>
+                        </p>
+                    </div>
+                    <div class="col-lg-7 col-sm-7 col-12" id="banner_right">
+                        <p class="text-center">
+                            <img src="images/gaming-banner.png" class="d-inline-block img-fluid" alt="#">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- main content -->
+    <main id="pages_content">
+        <!-- section 1 -->
+        <section id="mainContent_1" class="pb-5">
+
+            <div class="container relative">
+                <span id="extra_header_img" class="absolute">
+                    <img src="images/gaming-img-1.png" id="console_blue_img" class="img-fluid" alt="#">
+                </span>
+                <h1 class="text-center f-w2 mb-0 text_shadow"><span>POP</span> Telecom</h1>
+                <p class="text-center offers_top">
+                    <span class="text_shadow font2_bold">Gaming Broadband</span>
+                </p>
+            </div>
+        </section>
+
+        <!-- gaming_section_2 -->
+        <section id="gaming_section_2" class="pt-5 pb-5">
+            <div class="container">
+                <h2 class="display-5 f-w2 h1_c lh-1 pb-5 head_border_bottom_yellow">What is the best broadband for gaming?</h2>
+                <p class="mb-0">For the large percentage of people across the UK who regularly use the internet for gaming, broadband strength and speed is a crucial factor, as online gaming can be ruined by an unreliable connection.</p>
+                <p class="mb-0">Unlike less demanding tasks, online gaming requires super fast broadband to keep up with the real-time nature of the games being played. A faster internet connection means a more seamless online experience for the user, so it’s a high priority for experienced gamers to find the best broadband for gaming.</p>
+                <p class="mb-0">Problems with your internet connection will affect computer gaming through programmes like Steam or console gaming on an Xbox or PlayStation in equal measure. Every gamer has a preference over the platform they’re using and the games they’re playing, but a poor internet connection will affect them in the same way if the correct solution isn’t found.</p>
+            </div>
+        </section>
+
+        <!-- gaming_section_3 -->
+        <section id="gaming_section_3" class="pt-5 pb-5">
+            <div class="container relative">
+                <p class="absolute" id="console_yellow_img"><img src="images/gaming-img-2.png" class="img-fluid" alt=""></p>
+                <h2 class="display-5 f-w2 h1_c lh-1 pb-5 head_border_bottom_yellow">Does broadband speed affect <br />online gaming?</h2>
+                <p>Rather than focusing on finding the quickest internet connection, it would be more beneficial to source the most reliable. It’s become a common myth to assume that speed is the be all and end all when it comes to securing the best connection, as inconsistency is a more frequent cause of disruption for activities like online gaming.</p>
+                <p>An extremely low broadband speed would affect online gaming, but it would have to be so slow that you would be encountering problems with all other internet uses, including using WiFi on mobile devices.</p>
+                <p>Choosing a dedicated gaming broadband package would ensure a hyper-fast router capable of maintaining your connection for live online gaming, but speed is not the only factor that affects broadband performance. The number of connected devices at any one time, activities being carried out by each device such as video streaming and downloading large files, and the ping for connecting to the server all play a part in the strength and speed of your internet connection. Speed and strength can also be affected by broadband faults and maintenance work in your local area.</p>
+            </div>
+        </section>
+
+        <!-- gaming_section_4 -->
+        <section id="gaming_section_4" class="pt-5 pb-5" style="background-color: #ffedc2;">
+            <div class="container">
+                <h2 class="display-5 f-w2 h1_c text-center pb-5 lh-1 relative head_border_bottom_yellow" id="rural-broadband_content_top_head_2">Do WiFi extenders work for gaming?</h2>
+                <p class="text-center">Activities such as online gaming and video streaming need a strong internet connection in order to provide the necessary instant coverage, so it would make sense to use a WiFi booster or extender if problems arise.</p>
+                <p class="text-center">If you’re having continual issues with your broadband and it’s affecting your online gaming activity, there are several options for enhancing your connection. Excessive broadband usage, unexplained dead spots within the house or the demand for internet coverage in the garden can often lead to the need for a WiFi extender or booster. </p>     
+            </div>
+        </section>
+
+        <!-- gaming_section_5 -->
+        <section id="gaming_section_5"  class="pt-5 pb-5" class="pt-5">
+            <div class="container">
+                <h2 class="display-5 f-w2 h1_c lh-1 pb-5 head_border_bottom_yellow">What is the difference between a <br />WiFi extender and booster?</h2>
+                <p>Depending on the issue you’re having, you may choose either a WiFi extender or a booster. While WiFi boosters are connected to your wireless network as a method of boosting your existing signal, a WiFi extender can be placed anywhere in your household to improve the broadband strength around your house.</p>
+                <p>Internet users have been known to use a WiFi booster connected to their router to strengthen their signal, but it’s often the case that WiFi extenders are more useful. This is primarily down to the fact that your gaming device could be located far from your router, meaning that the extra support from a WiFi extender could make all the difference.</p>
+                <p>Although there’s also the option of introducing a WiFi repeater, they’re often ruled out due to several crucial shortcomings. A WiFi repeater is a mix between a booster and an extender, available for use in any part of the house but with the intention of amplifying the original signal from the router.</p>
+                <p>The only issue with this type of device is that they’ve been known to lose the original signal easily and any interference from mobile phones, radios, microwaves and other electronic devices can make the repeater almost entirely ineffective.</p>
+                <p>It’s possible to test your internet coverage to weigh up whether it’s strong enough to cater to your online gaming activity. If you’ve already purchased a broadband package that aims to improve your internet for online gaming and you continue to experience issues, it could be the case that a WiFi extender or booster is the correct course of action to take.</p>
+                <p>If you’re into online gaming, you’ve come to the right place for your broadband package.</p>
+                <p>We know that gamers have very specific requirements when it comes to connectivity, which is why we provide bespoke gaming broadband packages designed to cater to your needs. Our broadband for gaming is high speed, reliable and great value for money.</p>
+            </div>
+        </section>
+
+        <!-- gaming_section_6 -->
+        <section id="gaming_section_6" class="pt-5 pb-5" style="background-color: #eff7fd;">
+            <div class="container">
+                <h2 class="display-5 f-w2 h1_c lh-1 pb-5 head_border_bottom_yellow">Gaming broadband you can rely on</h2>
+                <p><img src="images/gaming-img-3.png" class="img-fluid float-end ps-lg-0 ps-sm-0 ps-0 pb-5" alt="#">Online games are continually updating and advancing, meaning they demand faster broadband speeds. To really make the most of them, you need an internet connection that’s quick and reliable. If you’re not getting what you need from your current provider or you want to set up broadband for your property, we can help. Our packages are designed to meet even the most demanding gaming requirements. With POP Telecom as your provider, you can enjoy a truly seamless online experience.</p>
+                <p>A key factor when you’re looking for the best broadband for gaming is speed. Our services offer fast upload and download speeds so that you can take full advantage of all the features the modern gaming scene offers. This is especially important if there are other people in your household who will be using the service at the same time as you.</p>
+                <p>Our packages also feature unlimited downloads. The rise of full game downloads and downloadable content, as well as console software updates, means it’s more important than ever to have a service that doesn’t place a limit on data.</p>
+                <p>A high-quality router is a must too, and the router provided with our broadband packages certainly ticks this box. However, for extreme gamers, we offer upgrades to the latest AC routers from as little as £5 per month.</p>
+                <p>When you come to us for your broadband, you can be sure of smooth gaming sessions. Our focus on providing reliable internet means our service has low latency, jitter and packet loss. Latency refers to the amount of time it takes for a download or data transfer to start, while jitter is a measurement of the rate that latency changes. A high jitter rate, which is a sign of a less stable broadband connection, can make your gaming sessions less slick. Packet loss is when data gets lost while travelling to or from a server, and it can cause games to freeze or stutter.</p>
+                <p>Whether you’re downloading or playing games, streaming video or music content or simply  browsing the web, you can have total confidence in our broadband service.</p>
+            </div>
+        </section>
+
+        <!-- gaming_section_7 -->
+        <section id="gaming_section_7" class="pt-5">
+            <div class="container">
+                <p class="text-center pb-5">
+                    <img src="images/gaming-img-4.png" class="img-fluid" alt="#">
+                </p>
+                <h2 class="display-5 f-w2 h1_c lh-1 pb-5 head_border_bottom_yellow">Choose the right package for you</h2>
+                <p>Browse our bespoke gaming packages to find the right deal for you. We offer a variety of broadband services, including superfast packages with average download speeds of 63Mb. With their unlimited downloads and array of other benefits, these packages can help you to get the most from your gaming. Our broadband for gaming is also excellent value for money.</p>
+                <p>Signing up to a package with us is quick and easy, and our UK-based customer service team is committed to making sure you have an unbeatable experience from the very beginning. To discover more about our services, simply  contact us today.</p>
+            </div>
+        </section>
+
+        <!-- fibre-advanced_content -->
+        <section id="gaming_content" class="pb-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7 col-sm-12 col-12 px-0">
+                        <p>
+                            <img src="images/rural-broadband-img.png" class="img-fluid shadow" alt="#">
+                        </p>
+                    </div>
+                    <div class="col-lg-5 col-sm-12 col-12">
+                        <div class="row">
+                            <div class="col-lg-10">
+                                <div id="shapes_bg" class="absolute">
+                                    <span id="triagle_1"><img src="images/triangle_1.png" class="img-fluid" alt="#"></span>
+                                    <span id="triagle_2"><img src="images/triangle_2.png" class="img-fluid" alt="#"></span>
+                                    <span id="triagle_3"><img src="images/triangle_3.png" class="img-fluid" alt="#"></span>
+                                </div>
+                                <figure class="circle_top mt-4">
+                                    <img src="images/118_logo.png" class="figure-img img-fluid rounded" alt="">
+                                </figure>
+                                <h2 class="f-w1 lh-1 mb-4 h2_c text-uppercase header_text">POP Directory Enquiries</h2>
+                                <p class="lh-1 mb-0 f-w2 mt-lg-0 mt-sm-0 mt-5">50% Cheaper than 118 118</p>
+                                <p class="lh-1 mb-0 f-w3"><a href="#">More info</a></p>
+
+                                <div class="mt-5 mb-5">
+                                    <a href="#" class="btn btn-lg btn-bg-yellow text-white">Contact Us</a>
+                                    <a href="#" class="btn btn-lg btn-bg-blue-border">Chat Online</a>
+                                </div>
+
+                                <div class="list-group">
+                                    <li class="list-group-item">Unlimited Broadband for Life
+                                        £21.99 with POP telecom</li>
+                                    <li class="list-group-item">Unlimited Broadband £17.50
+                                        (18m)</li>
+                                    <li class="list-group-item">Unlimited Broadband with
+                                        Weekend Calls £17.90 (18m)</li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- mainContent_13 -->
+        <section id="mainContent_13" class="pt-5 pb-5" style="background: #12314f;">
+            <div class="container">
+                <div class="col-lg-9 offset-lg-2 col-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-lg-6">
+                            <div class="card bg-transparent p-0 border-0">
+                                <div class="row g-0">
+                                    <div class="col-2 col-sm-2 col-md-2" id="icon_supports">
+                                        <img src="images/icons/img-support.png" class="img-fluid mt-3" alt="">
+                                    </div>
+                                    <div class="col-10 col-sm-10 col-lg-10">
+                                        <div class="card-body pb-0">
+                                            <h2 class="card-title f-w2 text-white mb-0">CUSTOMER SERVICE</h2>
+                                            <p class="card-text text-white">0343 538 6611</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-6">
+                            <div class="card bg-transparent p-0 border-0">
+                                <div class="row g-0">
+                                    <div class="col-2 col-sm-2 col-md-2" id="icon_supports">
+                                        <img src="images/icons/img-call-center-agent.png" class="img-fluid mt-3" alt="">
+                                    </div>
+                                    <div class="col-10 col-sm-10 col-lg-10">
+                                        <div class="card-body pb-0">
+                                            <h2 class="card-title f-w2 text-white mb-0">SALES LINE</h2>
+                                            <p class="card-text text-white">0343 538 6666</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+   
+
+  <!-- footer -->
+  <footer id="footerMain" class="pt-5 bg-white">
+    <div id="footer_list">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Residential</h4>
+                    <ul>
+                        <li><a href="#">Superfast Packages</a></li>
+                        <li><a href="#">Broadband</a></li>
+                        <li><a href="#">Phone</a></li>
+                        <li><a href="#">Broadband & Phone</a></li>
+                        <li><a href="#">Mobile</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Company Information</h4>
+                    <ul>
+                        <a style="text-decoration: none; color:#212529;"  href="aboutus.html"><li>About Us</li></a>
+                        <a style="text-decoration: none; color:#212529;"  href="terms.html"><li>Terms and Conditions</li></a>
+                        <li>Affiliates</li>
+                        
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Corporate Information</h4>
+                    <ul>
+                        <li>Superfast Packages</li>
+                    </ul>
+                </div>
+        
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Help and Support</h4>
+                    <ul>
+                        <a style="text-decoration: none; color:#212529;"  href="faqs.html"><li>Frequently Asked Questions</li></a>
+                        <a  style="text-decoration: none; color:#212529;"  href="signin.html"><li>My Account</li></a>
+                        <a  style="text-decoration: none; color:#212529;"  href="pay.html"><li>Make Payment</li></a> 
+                       
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Corporate Information</h4>
+                    <ul>
+                        <a  style="text-decoration: none; color:#212529;"  href="partners.html"><li>Partners</li></a>
+                        <a  style="text-decoration: none; color:#212529;"  href="partner.html"><li>Partners Second</li></a>
+                        
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Important Links</h4>
+                    <ul >
+                       
+                        <a style="text-decoration: none; color:#212529;"   href="login.html"><li>Billing login</li></a>
+     
+                      
+                        
+                    </ul>
+                    <p>
+                        <a href="#" id="footer_logo"><img src="images/pop_telelcom_logo.png" class="img-fluid w-25" alt="#"></a>
+                        <span class="follow_us_footer">Follow Us <br />
+                            <a href="#"><img src="icons/newfacebook.png" alt=""></a>
+                             <a href="#"><img src="icons/newinstagram.png"  alt=""></a>
+                            <a href="#"><img src="icons/newtwitter.png" alt=""></a>
+                             <a href="#"><img src="icons/linkedin-logo.png" alt=""></a>
+
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- copyright -->
+    <div id="copyright" class="p-3">
+        <div class="container">
+            <p class="mb-0 text-white">Copyright Here</p>
+        </div>
+    </div>
+</footer>
+ </main>
+ <div class="chat-popup" id="myForm" style="width: 50%; height: 50;">
+    <form action="/" class="form-container">
+      <nav style="background-color: #11304e; width: 100%;  height: 36px;">
+          <button type="button" class="btn cancel" onclick="closeForm()">X</button>
+      </nav>
+      <div class="company-header" dir="rtl" style="background-image: url(&quot;https://messenger.providesupport.com/resource/avizur/190019.png&quot;);"><img src="https://messenger.providesupport.com/resource/avizur/190019.png" alt=""></div>
+     
+       <div style="text-align: center;">
+      <label for="name"><b>Your Name</b></label><br>
+      <textarea  name="name" id="nametext" required></textarea><br>
+      <label for="number"><b>Contact Number</b></label><br>
+      <textarea  name="number" required></textarea><br>
+      <label for="email"><b>Email</b></label><br>
+      <textarea  name="email" required></textarea><br>
+      <label for="msg"><b>Message</b></label><br>
+      <textarea style="height: 100px;" name="msg" required></textarea><br>
+  </div>
+      <button type="submit" class="btn" style="margin-bottom: 10px;">Send</button><br>
+      
+    </form>
+  </div>
+    <!-- js libraries -->
+    <!-- <script src="js/jquery.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/app.js"></script> -->
+    <!--Jquery3.6.0 and Bootstrap 5 js cdn added here-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" > </script>
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+        
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+          }
+         
+          function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+          }
+        
+          </script>
+        
+</body>
+</html>

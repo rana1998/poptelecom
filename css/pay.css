@@ -1,0 +1,470 @@
+body.pay{ background: #fff!important; }
+
+/* mainBanner  */
+#banner_top_shadow{
+    filter: drop-shadow(-2px 4px 3px rgb(170 170 170 / 45%))
+}
+#pay_mainBanner{
+    position: relative;
+    z-index: 3;
+    /* padding-bottom: 5rem!important; */
+    background: #fff;
+}
+
+#banner_left{
+    position: relative;
+    /* margin-top: 269px; */
+}
+h3{
+    font-size: 33px;
+    color: #11304e;
+    font-weight: 600;
+    font-family: sans-serif;
+    /* padding-top: 22px; */
+}
+.startp{
+   padding-left: 11px!important; 
+   padding-bottom: 30px;
+}
+.lookup{
+    width: 79px;
+    height: 43px;
+    background: #11304e;
+    color: white;
+    font-family: 'Roboto';
+    border-radius: 5px;
+}
+/*#pay_banner_shadow{
+    background: url(../images/img-banner-before-2.png) no-repeat;
+    background-position: center;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 14px;
+    z-index:  1;
+} */
+p {
+    margin-top: 0;
+    margin-bottom: -1rem;
+}
+#pay_banner h1{
+    font-size: 5rem;
+    color: #11304e;
+    line-height: 1;
+    position: relative;
+    /* text-align: center!important; */
+}
+
+#pay_banner h1::after{
+    content: '';
+    position: absolute;
+    background: url(../images/icons/human.png) no-repeat;
+    width: 72px;
+    height: 154px;
+    top: 78px;
+    right: 138px;
+    /* left: 474px; */
+    color: #11304e;
+}
+#pay_banner h1{
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+#pay_banner h1 span.banner_text_1{
+    font-size: 5.7rem;
+    font-weight: 400;
+    line-height: 80px;
+}
+#pay_banner h1 span.banner_text_2{
+    position: absolute;
+    right: -4rem;
+    bottom: -40px;
+}
+#pay_banner h1 span i{ font-style: normal; }
+
+#pay_banner p.price{
+    font-size: 4.80rem;
+    color: #11304e;
+    position: relative;
+   
+}
+#pay_banner p.price span{
+    font-size: 3rem;
+}
+#pay_banner p.btn_submit_buy_now button{ 
+    font-size: 1.9rem; 
+    border-color: #ff9c00; 
+    color: #ff9c00; 
+    border-radius: 0px; 
+    border-width: 2px;
+    position: relative;
+    padding: 5px 23px;
+}
+/* Button used to open the chat form - fixed at the bottom of the page */
+
+
+
+
+
+.open-button {
+    background-color: #11304e;
+    color: white;
+    font-size: 25px;
+    padding: 0px 11px;
+    border: none;
+    cursor: pointer;
+    position: sticky;
+    bottom: 23px;
+   right: 28px;
+    transition: all .25s ease-in-out;
+     position: fixed;
+    /* display: inline-flex; */
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+    height: 54px;
+    border-radius: 5px;
+  }
+  .open.button.hide {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .open.button.svg {
+    fill: #000;
+    width: 24px;
+    height: 12px;
+  }
+  .img-fluid {
+
+max-width: 87%;
+
+height: auto;
+
+/* text-align: end; */
+
+float: right;
+}
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: sticky;
+    /* position: relative; */
+    bottom: 0;
+    right: 15px;
+   
+    z-index: 9;
+  }
+ 
+  /* Add styles to the form container */
+  .form-container {
+   
+    padding: 10px;
+    background-color: white;
+     height:650px;
+      overflow-y:auto;
+      margin-top: 2rem;
+      border: #11304e;
+      border-style: solid;
+      border-radius: 5px;
+      border-width: 0.5rem;
+  }
+
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 50%;
+    height: 45px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+ 
+  }
+ 
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #11304e;
+    color: white;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+  }
+
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color:#ff9000;
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    border-radius: unset!important;
+    /* text-align: end!important; */
+  }
+
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+#pay_banner h1,
+#pay_banner p{/* padding-left: 76px; */text-align: center!important;}
+
+
+/* pay_content_1 */
+
+#pay_content_1{
+    padding-top: 7rem;
+    background: url(../images/pay_bg_shape.png) no-repeat 114% 7%;
+}
+
+#pay_content_1 h2{
+    font-size: 3rem;
+    position: relative;
+}
+#pay_content_1 h2::after{
+    content: '';
+    width: 150px;
+    height: 8px;
+    background: #ff9000;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    border-radius: 0px 40px 40px 0px;
+}
+
+#pay_content_1 p{ 
+    color: #4d4d4d;
+}
+#pay_content_1 p a{ 
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+#circle_bg_pos{
+    z-index: -1;
+    left: -22rem;
+    top: 10rem;
+    width: 438px;
+    height: 438px;
+    background: #f9f7f6;
+    border-radius: 50%;
+}
+
+
+#pay_content_1 .list-group li:first-child{ border-top: 0; }
+#pay_content_1 .list-group li{
+    font-size: 1.70rem;
+    border-left: none;
+    border-right: none;
+    padding-left: 0;
+    font-weight: 600;
+    border-bottom: 2px solid #e5e3e2;
+    background: none;
+}
+#pay_content_1 .list-group li::after{
+    content: '';
+    background: url(../images/icons/thin_arrow.png) no-repeat;
+    position: absolute;
+    width: 45px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-position: center;
+}
+
+.mb-5 {
+   margin-bottom: 15rem !important; 
+  }
+  
+#pay_content_1 #shapes_bg #rocket_up{ position: absolute; right: -29rem; }
+#pay_content_1 #shapes_bg #triagle_1{ position: absolute; right: -24rem; top: 3.50rem; }
+#pay_content_1 #shapes_bg #triagle_2{ position: absolute; right: -32.5rem; top: 3.50rem;transform: rotate(85deg); }
+#pay_content_1 #shapes_bg #triagle_3{ position: absolute; right: -31rem; top: 12rem; transform: rotateZ(25deg); }
+
+#pay_content_1 #yellow_shades_left{     
+    width: 11vw;
+    height: 6vw;
+    background: #ff9000; 
+    bottom: 32px; 
+    left: -116px; }
+#pay_content_1 #yellow_shades_right{
+    width: 11vw;
+    height: 6vw;
+    background: #ff9000;
+    top: 32px;
+    right: -116px;
+}
+#faqbar p{
+    text-align: center;
+     font-size: 3.1rem;
+      font-family: Helvetica;
+      font-weight: bolder;
+       color:white; 
+       
+       
+        letter-spacing: 1.5px;
+    }
+    #number_btn a {
+        border-radius: 0%;
+        border-color: #11304e;
+        background-color: white;
+    }
+
+    .btn-info {
+        color: #000;
+        background-color: #ff9000;
+        border-color: #f4f6f8;
+        width: 100%;
+      }
+      .btn-info:hover {
+        color: #000;
+        background-color: #ce7704;
+        
+      }
+
+    
+#thumb_up_icon{  
+    right: -4rem;
+    top: 6.60rem;
+    z-index: -1;
+}
+#mainContent_1 p.offers_top::after {
+    height: 5px;
+    width: 33%;
+    background: #11304e;
+    top: 46px;
+    content: '';
+    left: 2%;
+    position: absolute;
+}
+@media (max-width: 576px){
+    #col-sm-5 {
+    flex: 0 0 auto;
+    float: right!important;
+    width: 41.6666666667%;
+}
+#pay_banner h1::after {
+    display: none!important;
+    position: absolute;
+    background: url(../images/icons/human.png) no-repeat;
+    width: 72px;
+    height: 154px;
+    top: 78px;
+    right: 138px;
+    /* left: 474px; */
+    color: #11304e;
+}
+#pages_content p{
+    font-size: 17px !important;
+    
+}
+#pages_content .dept{
+    font-size: 15px !important;
+    
+}
+#pages_content .bold{
+    font-size: 20px!important;
+}
+
+#pay_banner h1{
+    font-size: 62px !important;
+    padding-top: 0px!important;
+}
+#pages_content .nextpara {
+   margin-top: -42px!important;
+}
+#pay_banner .col-lg-7.col-sm-7.col-12{
+    /* margin-top: -267px; */
+}
+#pay_banner .img-fluid{
+    margin-top: -16px!important;
+}
+ .form-container{
+    width: 200%;
+    height: 500px;
+    margin-top: 2rem;
+    border: #11304e;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5rem;
+ }
+     
+ .form-container  textarea {
+    width: 87%;
+}
+#pay_banner .col-lg-4.col-sm-4.col-12{
+    padding-left: 0!important;
+}
+}
+@media (max-width: 1024px){
+    #pay_content_1 #shapes_bg #rocket_up{ right: -19rem; }
+    #pay_content_1 #shapes_bg #triagle_1{ right: -15rem;  }
+    #pay_content_1 #shapes_bg #triagle_2{ right: -22.5rem; }
+    #pay_content_1 #shapes_bg #triagle_3{  right: -20rem;  }
+    #pay_content_1 h2{ font-size: 2rem; }
+}
+
+@media (max-width: 768px){
+    #pay_content_1{
+        padding-top: 0!important;
+    }
+    #aboutus_banner h1::before {
+        display: none!important;
+         position: absolute;
+         background: url(../images/icons/human.png) no-repeat;
+         width: 72px;
+         height: 154px;
+         top: -1.6rem;
+         left: 267px;
+         /* right: -7rem; */
+     }
+    #pay_banner h1{
+        font-size: 4rem;
+        text-align: center!important;
+        padding-left: 0;
+    }
+    #pay_banner h1 span.banner_text_1{
+        font-size: 3rem;
+    }
+    #pay_banner p{
+        padding-left: 0;
+    }
+    #pay_banner p.btn_submit_buy_now {
+        text-align: center!important;
+    }
+    #pay_banner p.btn_submit_buy_now button{
+        padding: 6px 17px;
+        font-size: 1.40rem;
+    }
+    #pay_banner p.price{
+        font-size: 3rem;
+        text-align: center!important;
+    }
+    #pay_banner h1 span.banner_text_2{
+        position: revert;
+    }
+    #pay_banner h1::after{
+        top: -22px;
+        left: 62px;
+    }
+  
+    #pay_content_1 .list-group li{
+        font-size: 1.3rem;
+        padding-right: 38px;
+    }
+    #pay_banner::before{
+        left: 0;
+    }
+}
+@media (min-width: 2560px){
+    .container{
+        max-width: 1658px;
+    }
+}

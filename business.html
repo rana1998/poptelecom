@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Telecom</title>
+    <!-- bootstrap css -->
+    <!-- <link rel="stylesheet" href="css/custom.css"> -->
+    <!-- Bootstrap 5 css minified version cdn added here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- pages css -->
+    <link rel="stylesheet" href="css/business.css">
+    <link rel="stylesheet" href="css/broadband.css">
+    <!-- css owl-carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+<body class="pages business">
+    <!-- header -->
+    <header id="mainHeader">
+        <div class="mainHeader_contact_info p-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 col-12">
+                        <!-- <button class="open-button" style=" height: 35px; float:right;margin-right: 14px;" onclick="openForm()"><img src="icons/email.png" style="height: 23px; width: 25px;margin-bottom: 6px;">&nbsp;Chat Offline</button> -->
+                        <p id="top_email" class="text-start mb-0 text-white">
+                            <span class="d-block d-lg-inline d-sm-block me-1"><img src="images/icons/email.png" alt="#" style="width: .9rem;"> Email:abc@poptelecom.com</span>
+                            <span class="d-block d-lg-inline d-sm-block"><img src="images/icons/call.png" alt="#" class="d-inline-block" style="width: .9rem;"> Customer Support : (000) 0000 000</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 col-12">
+                        <p class="text-start text-sm-end text-lg-end mb-0 text-white">
+                            <span class="d-block d-lg-inline d-sm-block">
+                                <a href="#" class="text-decoration-none text-white">
+                                    <img src="images/icons/pound_symbol.png" alt="#" class="d-inline-block img-fluid" style="width: .8rem; margin-top: -3px;"> Make Payment
+                                </a>
+                            </span>
+                            <span id="top_social_media" class="ms-4 text-end d-none d-sm-none d-lg-inline-block">
+                                <a href="#" class="d-inline-block">
+                                    <img src="icons/facebook.png" alt="#">
+                                </a>
+                                <a href="#" class="d-inline-block">
+                                    <img src="icons/instagram.png" alt="#">
+                                </a>
+                                <a href="#" class="d-inline-block">
+                                    <img src="icons/linkein.png" alt="#">
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="mainHeader_nav_menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg p-0">
+                    <a class="navbar-brand p-0" href="index.html" title="#">
+                        <img src="images/pop_telelcom_logo.png" alt="#" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile_view_menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="popTelcomMenu">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link active" href="broadband.html">Broadband</a></li>
+                            <li class="nav-item"><a class="nav-link" href="tv.html">TV</a></li>
+                            <li class="nav-item"><a class="nav-link" href="fibre-advanced.html">Fibre Advanced</a></li>
+                            <li class="nav-item"><a class="nav-link" href="fibre-infinity.html">Fibre Infinity</a></li>
+                            <li class="nav-item"><a class="nav-link" href="no-contract.html">No Contract</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Bespoke</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="sim-only.html">SIM Only</a></li>
+                                    <li><a class="dropdown-item" href="rural-broadband.html">Rural Broadband</a></li>
+                                    <li><a class="dropdown-item" href="over-60s.html">Broadband for the over 60s</a></li>
+                                    <li><a class="dropdown-item" href="gaming.html">Gaming</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Landline</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="12-99.html">£12.99 Landline Only</a></li>
+                                    <li><a class="dropdown-item" href="1949.html">£19.49 Line and Anytime Calls</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="aboutus.html">About</a>
+                        <ul class="dropdown-menu">
+                            
+                                    <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+                                    <li><a class="dropdown-item" href="guide.html">Guides</a></li>
+                                    <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link active" href="business.html">Business</a></li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav d-flex extra_menu">
+                        <li class="nav-item me-3" id="search_btn"><a class="nav-link active" data-bs-toggle="collapse" data-bs-target="#searchBar" href="#">
+                            <img src="images/icons/search.png" class="img-fluid" alt="#" width="14" height="16">
+                        </a></li>
+                        <li class="nav-item" id="number_btn"><a class="btn btn-outline-secondary" href="#"><img src="images/icons/call_header_ring.png" class="img-fluid" alt="#"> (000) 000 000</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- /end header -->
+
+    <!-- extra menu for mobile and ipad and tabs view -->
+    <div id="mobile_view_menu" class="collapse fade">
+        <button class="btn btn-lg" id="btn_close_icon" data-bs-toggle="collapse" data-bs-target="#mobile_view_menu" href="#"></button>
+        <div class="container">
+            <div class="navbar navbar-expand-lg">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="broadband.html">Broadband</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tv.html">TV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fibre-advanced.html">Fibre Advanced</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fibre-infinity.html">Fibre Infinity</a></li>
+                    <li class="nav-item"><a class="nav-link" href="no-contract.html">No Contract</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Bespoke</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sim-only.html">SIM Only</a></li>
+                            <li><a class="dropdown-item" href="rural-broadband.html">Rural Broadband</a></li>
+                            <li><a class="dropdown-item" href="over-60s.html">Broadband for the over 60s</a></li>
+                            <li><a class="dropdown-item" href="gaming.html">Gaming</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Landline</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="12-99.html">£12.99 Landline Only</a></li>
+                            <li><a class="dropdown-item" href="1949.html">£19.49 Line and Anytime Calls</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">About</a>
+                       <ul class="dropdown-menu">
+                           <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
+                           <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+                           <li><a class="dropdown-item" href="guide.html">Guides</a></li>
+                           <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                       </ul>
+                   </li>
+                    <li class="nav-item"><a class="nav-link active" href="business.html">Business</a></li>
+                </ul>
+            </div>
+
+            <ul class="list-group list-group-horizontal-lg mb-5">
+                <li class="list-group-item">
+                    <a href="#" class="text-dark">
+                        <img src="images/icons/call_header_ring.png" class="img-fluid" alt="#"> (000) 000 000</a>
+                </li>
+            </ul>
+
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">
+                    <a href="#">
+                        <img src="icons/facebook.png" alt="#">
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">
+                        <img src="icons/instagram.png" alt="#">
+                    </a>
+                </li> 
+                <li class="list-group-item">
+                    <a href="#">
+                        <img src="icons/linkein.png" alt="#">
+                    </a>
+                </li>              
+            </ul>
+        </div>
+    </div>
+
+    <!-- search bar for desktop, tabs, ipad and mobile view -->
+    <div id="searchBar" class="collapse fade">
+        <button class="btn btn-lg" id="btn_close_icon" data-bs-toggle="collapse" data-bs-target="#searchBar" href="#"></button>
+        <div class="container">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="row g-0">
+                    <div class="form-floating col-lg-11 col-11">
+                        <input type="text" class="form-control" name="s" id="searchId" placeholder="Search here">
+                        <label for="searchId">Search here</label>
+                    </div>
+                    <div class="col-lg-1 col-1">
+                        <button class="btn btn-lg btn-primary btn-block" type="button" id="search_btn_submit"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /search bar -->
+
+    <!-- main banner -->
+    <div id="business_banner" class="relative">
+        <section id="business_mainBanner" class="pt-5 clearfix">
+            <div id="business_banner_shadow" class="position-absolute">
+            </div>
+            <div class="container position-relative">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-5 col-12" id="banner_left">
+                        <h1 class="text-uppercase mb-0 f-w2">Business</h1>
+                        <p class="text-start f-w1 price mb-0 text_shadow" style="color: #ff9c00; font-size: 6rem;">CLOUD</p>
+                        <p class="text-start f-w1 price mb-0 text_shadow">TELEPHONY</p>
+                        <p class="text-start mb-0 btn_submit_buy_now">
+                            <button class="btn btn-lg f-w2">Buy Now <span class="ms-2"><img src="images/icons/btn_arrow.png" width="24" height="24" alt="#"></span></button>
+                        </p>
+                    </div>
+                    <div class="col-lg-7 col-sm-7 col-12" id="banner_right">
+                        <img src="images/business-min.jpg" class="img-fluid" alt="#">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- main content -->
+    <main id="pages_content">
+        <!-- section 1 -->
+        <section id="mainContent_1">
+            <div class="container">
+                <h1 class="text-center f-w2 mb-0 text_shadow"><span>POP</span> Telecom</h1>
+                <p class="text-center offers_top pb-4">
+                    <span class="text_shadow font2_bold"></span>
+                </p>
+                <div class="align-items-xl-center row" style="padding-bottom: 50px">
+                    <div class="col-sm-4 col-12" style="text-align: center;" >
+                        <img src="icons/homeworking.png">
+                      
+                        <p style="font-family: 'Montserrat';">If there is one good thing to come out of the Covid 19 pandemic is the realisation that you no longer need to have an office to effectively run your business. The increase in the worker not making the commute to the office rose from 4.3% in 2015 to 46% in 2020.</p>
+                    </div>
+                    <div class="col-sm-4 col-12" style="text-align: center;" >
+                     <img src="icons/savings.png">
+                   
+                     <p style="font-family: 'Montserrat';">If there is one good thing to come out of the Covid 19 pandemic is the realisation that you no longer need to have an office to effectively run your business. The increase in the worker not making the commute to the office rose from 4.3% in 2015 to 46% in 2020.</p>
+                 </div>
+                 <div class="col-sm-4 col-12" style="text-align: center;" >
+                     <img src="icons/wellbeing.png">
+                     
+                     <p style="font-family: 'Montserrat';">If there is one good thing to come out of the Covid 19 pandemic is the realisation that you no longer need to have an office to effectively run your business. The increase in the worker not making the commute to the office rose from 4.3% in 2015 to 46% in 2020.</p>
+                 </div>
+
+                <div class="row pt-5 mx-auto" style=" align-items: center;">
+                    <div class="col-12 col-sm-4 col-lg-4">
+                        <div class="box_offers">
+                            <div class="box_offers_icon d-block text-center">
+                                <span class="bg-white d-block rounded-pill">
+                                    <img src="images/img-rocket-2.png" alt="#">
+                                </span>
+                            </div>
+                            <div class="box_header_text">
+                                <h2 class="display-5 f-w1 text-center text-white">£21.99 <span>/month</span></h2>
+                                <h3 class="display-7 f-w3 mb-0 text-center text-white"> <span class="d-block display-6 f-w1">Silver</span></h3>
+                                <p class="text-center mb-0 arrow_click">
+                                    <button class="btn btn-transparent btn-sm" data-bs-toggle="collapse" data-bs-target="#offer_1">
+                                        <img src="images/arrow_down.svg" class="img-fluid" alt="">
+                                    </button>
+                                </p>
+                            </div>
+                            <div class="card me-2 ms-2 collapse show" id="offer_1">
+                                <div class="card-body ps-0 pe-0 pb-0 pt-5">
+                                    <ul class="list-group">
+                                        <li class="list-group-item list-group-item-dark">250 Landline & Mobile</li>
+                                        <p class="lightblue">Minutes per month to UK 01, 02 & UK Mobiles (EE, Three, Vodafone, & O2)</p>
+                                        <li class="list-group-item list-group-item-dark">Unlimited Inbound</li>
+                                        <p class="lightblue">Receive as many calls as you want for FREE</p>
+                                        <li class="list-group-item list-group-item-dark">Voicemail to email</li>
+                                        <p class="lightblue">Never miss another message</p>
+                                        <li class="list-group-item list-group-item-dark">Android & iOS App</li>
+                                        <p class="lightblue">Turn your smart phone into your office phone</p>
+                                        <li class="list-group-item list-group-item-dark">Windows & iMac Software</li>
+                                        <p class="lightblue">Take calls on your PC when at your desk</p>
+                                        <li class="list-group-item list-group-item-dark">OnNet Calls</li>
+                                        <p class="lightblue">Make calls between users</p>
+                                        <li class="list-group-item list-group-item-dark">FREE Local Number</li>
+                                        <p class="lightblue">Any Local Area Code</p>
+                                    </ul>
+                                </div>
+                                 <div class="col-12">
+                                    <p class="text-center">
+                                        <a href="#" class="btn btn-md btn-primary">Buy Now</a> <a href="#" class="btn btn-md btn-primary">More Info</a>
+                                    </p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-lg-4">
+                        <div class="box_offers">
+                            <div class="box_offers_icon d-block text-center">
+                                <span class="bg-white d-block rounded-pill">
+                                    <img src="images/img-rocket-3.png" alt="#">
+                                </span>
+                            </div>
+                            <div class="box_header_text special">
+                                <h2 class="display-5 f-w1 text-center text-white">£17.50 <span>/month</span></h2>
+                                <h3 class="display-7 f-w3 mb-0 text-center text-white"><span class="d-block display-6 f-w1">Gold </span></h3>
+                                <p class="text-center mb-0 arrow_click">
+                                    <button class="btn btn-transparent btn-sm" data-bs-toggle="collapse" data-bs-target="#offer_2">
+                                        <img src="images/arrow_down.svg" class="img-fluid" alt="">
+                                    </button>
+                                </p>
+                            </div>
+                            <div class="card me-2 ms-2 collapse show" id="offer_1">
+                                <div class="card-body ps-0 pe-0 pb-0 pt-5">
+                                    <ul class="list-group">
+                                        <li class="list-group-item list-group-item-dark">250 Landline & Mobile</li>
+                                        <p class="lightblue">Minutes per month to UK 01, 02 & UK Mobiles (EE, Three, Vodafone, & O2)</p>
+                                        <li class="list-group-item list-group-item-dark">Unlimited Inbound</li>
+                                        <p class="lightblue">Receive as many calls as you want for FREE</p>
+                                        <li class="list-group-item list-group-item-dark">Voicemail to email</li>
+                                        <p class="lightblue">Never miss another message</p>
+                                        <li class="list-group-item list-group-item-dark">Android & iOS App</li>
+                                        <p class="lightblue">Turn your smart phone into your office phone</p>
+                                        <li class="list-group-item list-group-item-dark">Windows & iMac Software</li>
+                                        <p class="lightblue">Take calls on your PC when at your desk</p>
+                                        <li class="list-group-item list-group-item-dark">OnNet Calls</li>
+                                        <p class="lightblue">Make calls between users</p>
+                                        <li class="list-group-item list-group-item-dark">FREE Local Number</li>
+                                        <p class="lightblue">Any Local Area Code</p>
+                                    </ul>
+                                </div>
+                                 <div class="col-12">
+                                    <p class="text-center">
+                                        <a href="#" class="btn btn-md btn-primary">Buy Now</a> <a href="#" class="btn btn-md btn-primary">More Info</a>
+                                    </p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-lg-4">
+                        <div class="box_offers">
+                            <div class="box_offers_icon d-block text-center">
+                                <span class="bg-white d-block rounded-pill">
+                                    <img src="images/img-rocket.png" alt="#">
+                                </span>
+                            </div>
+                            <div class="box_header_text">
+                                <h2 class="display-5 f-w1 text-center text-white">£17.90 <span>/month</span></h2>
+                                <h3 class="display-7 f-w3 mb-0 text-center text-white"><span class="d-block display-6 f-w1">Platinum</span></h3>
+                                <p class="text-center mb-0 arrow_click" data-bs-toggle="collapse" data-bs-target="#offer_3">
+                                    <button class="btn btn-transparent btn-sm">
+                                        <img src="images/arrow_down.svg" class="img-fluid" alt="">
+                                    </button>
+                                </p>
+                            </div>
+                            <div class="card me-2 ms-2 collapse show" id="offer_1">
+                                <div class="card-body ps-0 pe-0 pb-0 pt-5">
+                                    <ul class="list-group">
+                                        <li class="list-group-item list-group-item-dark">250 Landline & Mobile</li>
+                                        <p class="lightblue">Minutes per month to UK 01, 02 & UK Mobiles (EE, Three, Vodafone, & O2)</p>
+                                        <li class="list-group-item list-group-item-dark">Unlimited Inbound</li>
+                                        <p class="lightblue">Receive as many calls as you want for FREE</p>
+                                        <li class="list-group-item list-group-item-dark">Voicemail to email</li>
+                                        <p class="lightblue">Never miss another message</p>
+                                        <li class="list-group-item list-group-item-dark">Android & iOS App</li>
+                                        <p class="lightblue">Turn your smart phone into your office phone</p>
+                                        <li class="list-group-item list-group-item-dark">Windows & iMac Software</li>
+                                        <p class="lightblue">Take calls on your PC when at your desk</p>
+                                        <li class="list-group-item list-group-item-dark">OnNet Calls</li>
+                                        <p class="lightblue">Make calls between users</p>
+                                        <li class="list-group-item list-group-item-dark">FREE Local Number</li>
+                                        <p class="lightblue">Any Local Area Code</p>
+                                    </ul>
+                                </div>
+                                 <div class="col-12">
+                                    <p class="text-center">
+                                        <a href="#" class="btn btn-md btn-primary">Buy Now</a> <a href="#" class="btn btn-md btn-primary">More Info</a>
+                                    </p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- tv_section_3 -->
+        <section id="business_section_3" >
+            <div class="container" >
+                <div class="row g-2 pb-5" style="padding-top: 43px;">
+                    <div class="col-lg-6 col-sm-12 col-12 order-lg-1 order-2">
+                        <img src="images/keyfeatures1.png" class="img-fluid"  style="max-width: 100%!important;" alt="#">
+                    
+                        
+                    </div>
+                    <div class="col-lg-6 col-sm-12 col-12 order-lg-2 order-1">
+                        <p class="mb-0">   
+                            <h3 class="busiheadings">Key Features<hr class="busihr"><br> <hr style=" width: 294px;
+                                height: 19px; float: right; background:#11304e; opacity: 100;  margin-left: 48px;"></h3>
+                               
+                            
+                            <p class="busiparagraph"style=" font-size: 23px;">Our telephone system comes complete with an extensive set of features for advanced call handling and management, all controlled through our easy to use web based interfaced – Accesible anytime and anywhere. The full list is exhaustive but here are the most regularly used ones.</p>
+                            
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row g-2 pb-5">
+                    <div class="col-lg-6">
+                        <p class="mb-0"> 
+                            <h3 class="busiheadings">Consult<hr class="busilhr"><br> <hr style=" width: 294px;
+                                height: 19px; float: left; background:#11304e; opacity: 100;  margin-right: 48px;"></h3>
+                            <p class="busiparagraph" style="font-size: 23px;">Send us or call us with your query.
+                            Let us create the perfect solution bespoke to your needs and business</p>
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ps-0 ps-sm-0 ps-lg-5">
+                            <img src="images/consult1.png" class="img-fluid"  style="max-width: 100%!important;" alt="#">
+                          
+                          
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-2 pb-5">
+                    <div class="col-lg-6 col-sm-12 col-12 order-lg-1 order-2">
+                       <img src="images/onboard1.png" class="img-fluid"  style="max-width: 100%!important;" alt="#">
+                       
+                    </div>
+                    <div class="col-lg-6 col-sm-12 col-12 order-lg-2 order-1">
+                        <p class="mb-0">
+                            <h3 class="busiheadings">Onboard<hr class="busihr"><br> <hr style=" width: 294px;
+                                height: 19px; float: right; background:#11304e; opacity: 100;  margin-left: 48px;"></h3>
+
+                            <p class="busiparagraph"  style="  font-size: 23px;">No engineers are needed,
+                            no installation needed,
+                            and you could be up and running within 5 minutes</p> 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row g-2 pb-5">
+                    <div class="col-lg-6">
+                        <p class="mb-0">
+                            <h3 class="busiheadings">Manage<hr class="busilhr"><br> <hr style=" width: 294px;
+                                height: 19px; float: left; background:#11304e; opacity: 100;  margin-right: 48px;"></h3>
+                           <p class="busiparagraph"  style="font-size: 23px;">Keep control of your phone system online anytime
+                                Simple to use
+                                Self manage without the wait!</p>
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ps-0 ps-sm-0 ps-lg-5"> 
+                             <img src="images/onboard3.png" class="img-fluid" style="max-width: 100%!important;"alt="#">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="business_mainBanner" class="pt-5 clearfix">
+            
+            <div class="container">
+                <div class="align-items-xl-center row">
+                    <h3>Request a Call Back</h3> <br>
+                   
+                        <form style=" float: left; padding-bottom: 2rem;">
+                            <div class="align-items-xl-center row">
+                           <span class="col-lg-12 col-sm-12 col-12"  > <textarea  placeholder="Name:"style="height: 43px; width: 50%;"></textarea> 
+                            
+                            </span>
+                          
+                            <span class="col-lg-12 col-sm-12 col-12" style="  padding-top: 20px;"  > <textarea placeholder="Company Name (optiona):" style="height: 43px; width: 50%;"></textarea>
+                            
+                            </span>
+                            <span class="col-lg-12 col-sm-12 col-12" style="  padding-top: 20px;"  > <textarea placeholder="Email:" style="height: 43px; width: 50%;"></textarea>
+                            
+                            </span>
+                            <span class="col-lg-12 col-sm-12 col-12" style="  padding-top: 20px;"  ><textarea placeholder="Phone:" style="height: 43px; width: 50%;"></textarea>
+                            
+                            </span>
+                            <span class="col-lg-12 col-sm-12 col-12" style="  padding-top: 20px;"  > <textarea placeholder="Your Message:" style="height: 143px; width: 50%;"></textarea>
+                            
+                            </span>
+                          
+                            <span class="col-lg-12 col-sm-12 col-12" style="padding-top: 20px;" >
+                                <button  class="submitbtn"type="button" style=" width:50%; border-style: none; background-color:#ff9c00; border-radius: 5px; color: white;">Submit</button>
+                                </span> </div>
+                        </form>
+                        </div>
+                      
+                </div>
+                </section>
+       
+
+        <!-- mainContent_13 -->
+        <section id="mainContent_13" class="pt-5 pb-5" style="background: #12314f;">
+            <div class="container">
+                <div class="col-lg-9 offset-lg-2 col-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-lg-6">
+                            <div class="card bg-transparent p-0 border-0">
+                                <div class="row g-0">
+                                    <div class="col-2 col-sm-2 col-md-2" id="icon_supports">
+                                        <img src="images/icons/img-support.png" class="img-fluid mt-3" alt="">
+                                    </div>
+                                    <div class="col-10 col-sm-10 col-lg-10">
+                                        <div class="card-body pb-0">
+                                            <h2 class="card-title f-w2 text-white mb-0">CUSTOMER SERVICE</h2>
+                                            <p class="card-text text-white">0343 538 6611</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-6">
+                            <div class="card bg-transparent p-0 border-0">
+                                <div class="row g-0">
+                                    <div class="col-2 col-sm-2 col-md-2" id="icon_supports">
+                                        <img src="images/icons/img-call-center-agent.png" class="img-fluid mt-3" alt="">
+                                    </div>
+                                    <div class="col-10 col-sm-10 col-lg-10">
+                                        <div class="card-body pb-0">
+                                            <h2 class="card-title f-w2 text-white mb-0">SALES LINE</h2>
+                                            <p class="card-text text-white">0343 538 6666</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+<!-- footer -->
+<footer id="footerMain" class="pt-5 bg-white">
+    <div id="footer_list">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Residential</h4>
+                    <ul>
+                        <li><a href="#">Superfast Packages</a></li>
+                        <li><a href="#">Broadband</a></li>
+                        <li><a href="#">Phone</a></li>
+                        <li><a href="#">Broadband & Phone</a></li>
+                        <li><a href="#">Mobile</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Company Information</h4>
+                    <ul>
+                        <a style="text-decoration: none; color:#212529;"  href="aboutus.html"><li>About Us</li></a>
+                        <a style="text-decoration: none; color:#212529;"  href="terms.html"><li>Terms and Conditions</li></a>
+                        <li>Affiliates</li>
+                        
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Corporate Information</h4>
+                    <ul>
+                        <li>Superfast Packages</li>
+                    </ul>
+                </div>
+        
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Help and Support</h4>
+                    <ul>
+                        <a style="text-decoration: none; color:#212529;"  href="faqs.html"><li>Frequently Asked Questions</li></a>
+                        <a  style="text-decoration: none; color:#212529;"  href="signin.html"><li>My Account</li></a>
+                        <a  style="text-decoration: none; color:#212529;"  href="pay.html"><li>Make Payment</li></a> 
+                       
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Corporate Information</h4>
+                    <ul>
+                        <a  style="text-decoration: none; color:#212529;"  href="partners.html"><li>Partners</li></a>
+                        <a  style="text-decoration: none; color:#212529;"  href="partner.html"><li>Partners Second</li></a>
+                        
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h4>Important Links</h4>
+                    <ul >
+            
+                        <a style="text-decoration: none; color:#212529;"   href="login.html"><li>Billing login</li></a>
+       
+                      
+                        
+                    </ul>
+                    <p>
+                        <a href="#" id="footer_logo"><img src="images/pop_telelcom_logo.png" class="img-fluid w-25" alt="#"></a>
+                        <span class="follow_us_footer">Follow Us <br />
+                            <a href="#"><img src="icons/newfacebook.png" alt=""></a>
+                             <a href="#"><img src="icons/newinstagram.png"  alt=""></a>
+                            <a href="#"><img src="icons/newtwitter.png" alt=""></a>
+                             <a href="#"><img src="icons/linkedin-logo.png" alt=""></a>
+
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- copyright -->
+    <div id="copyright" class="p-3">
+        <div class="container">
+            <p class="mb-0 text-white">Copyright Here</p>
+        </div>
+    </div>
+</footer>
+</main>
+
+<div class="chat-popup" id="myForm" style="width: 50%; height: 50;">
+    <form action="/" class="form-container">
+      <nav style="background-color: #11304e; width: 100%;  height: 36px;">
+          <button type="button" class="btn cancel" onclick="closeForm()">X</button>
+      </nav>
+      <div class="company-header" dir="rtl" style="background-image: url(&quot;https://messenger.providesupport.com/resource/avizur/190019.png&quot;);"><img src="https://messenger.providesupport.com/resource/avizur/190019.png" alt=""></div>
+     
+       <div style="text-align: center;">
+      <label for="name"><b>Your Name</b></label><br>
+      <textarea  name="name" id="nametext" required></textarea><br>
+      <label for="number"><b>Contact Number</b></label><br>
+      <textarea  name="number" required></textarea><br>
+      <label for="email"><b>Email</b></label><br>
+      <textarea  name="email" required></textarea><br>
+      <label for="msg"><b>Message</b></label><br>
+      <textarea style="height: 100px;" name="msg" required></textarea><br>
+  </div>
+      <button type="submit" class="btn" style="margin-bottom: 10px;">Send</button><br>
+      
+    </form>
+  </div>
+    <!-- js libraries -->
+    <!-- <script src="js/jquery.js"></script>
+    <script src="js/custom.js"></script> -->
+    <!-- js owl-carousel -->
+    <!-- <script src="js/owl.carousel.min.js"></script> -->
+    <!-- my custom js -->
+    <!-- <script src="js/app.js"></script> -->
+    <!--Jquery3.6.0 and Bootstrap 5 js cdn added here-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" > </script>
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+          }
+         
+          function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+          }
+        
+          </script>
+        
+</body>
+</html>

@@ -1,0 +1,369 @@
+body.no-contract{ background: #fff!important; }
+
+/* global  */
+
+.no_contract h2.head_border_bottom_yellow{ font-size: 3rem; position: relative; }
+.no_contract h2.head_border_bottom_yellow span{ font-size: 4.50rem; }
+.no_contract h2.head_border_bottom_yellow::after{
+    content: '';
+    width: 100px;
+    height: 8px;
+    background: #ff9000;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    border-radius: 0px 0px 0px 0px;
+}
+
+#contract_info_12_99{
+    position: relative;
+}
+#contract_info_12_99::after{ 
+    content: '';
+    width: 220px;
+    height: 5px;
+    background: #ff9000;
+    position: absolute;
+    top: 60px;
+    left: 14px;
+    border-radius: 0px 0px 0px 0px;
+}
+/* Button used to open the chat form - fixed at the bottom of the page */
+
+
+
+
+
+.open-button {
+    background-color: #11304e;
+    color: white;
+    font-size: 25px;
+    padding: 0px 11px;
+    border: none;
+    cursor: pointer;
+    position: sticky;
+    bottom: 23px;
+   right: 28px;
+    transition: all .25s ease-in-out;
+     position: fixed;
+    /* display: inline-flex; */
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+    height: 54px;
+    border-radius: 5px;
+  }
+  .open.button.hide {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .open.button.svg {
+    fill: #000;
+    width: 24px;
+    height: 12px;
+  }
+  .img-fluid {
+    max-width: 87%;
+    height: auto;
+}
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: sticky;
+    /* position: relative; */
+    bottom: 0;
+    right: 15px;
+  
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+   
+    padding: 10px;
+    background-color: white;
+     height:650px;
+      overflow-y:auto;
+      margin-top: 2rem;
+      border: #11304e;
+      border-style: solid;
+      border-radius: 5px;
+      border-width: 0.5rem;
+  }
+
+
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 50%;
+    height: 45px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+ 
+  }
+ 
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #11304e;
+    color: white;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+  }
+
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color:#ff9000;
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    border-radius: unset!important;
+    /* text-align: end!important; */
+  }
+
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+/* edit */
+body.no-contract #mainContent_1 .box_offers .box_header_text h3{ _font-size: 1.80rem; }
+body.no-contract #mainContent_1 .box_offers .box_header_text h3 span{ _font-size: 2.40rem; _margin-top: .5rem; }
+
+/* fiber_advanced_mainBanner  */
+#no_contract_mainBanner{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+#no_contract_banner_shadow{
+    top: -7.6rem;
+    left: 133px;
+    z-index: -1;
+}
+
+#no_contract_banner h1{ 
+    font-size: 3rem; 
+    color: #11304e; 
+    line-height: 1; 
+    position: relative;
+}
+#no_contract_banner h1::before{
+    content: '';
+    position: absolute;
+    background: url(../images/icons/human.png) no-repeat;
+    width: 72px;
+    height: 154px;
+    top: 1.4rem;
+    right: 6rem;
+}
+#no_contract_banner h1{  
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+#no_contract_banner h1 span.banner_text_1{ 
+    font-size: 5.7rem;
+    font-weight: 400;
+    line-height: 56px;
+    margin-top: 21px;
+    margin-bottom: 10px;
+}
+#no_contract_banner h1 span.banner_text_2{
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+}
+
+#no_contract_banner h1 span i{ font-style: normal; }
+#no_contract_banner p.price{ 
+    font-size: 4.80rem; 
+    color: #11304e;
+    position: relative;
+    line-height: 88px;
+}
+#no_contract_banner p.price span{
+    font-size: 3rem;
+}
+#no_contract_banner p.btn_submit_buy_now button{ 
+    font-size: 1.9rem; 
+    border-color: #ff9c00; 
+    color: #ff9c00; 
+    border-radius: 0px; 
+    border-width: 2px;
+    position: relative;
+    padding: 5px 23px;
+}
+
+#no_contract_banner h1,
+#no_contract_banner p{ padding-left: 6rem; }
+
+#no_contract_banner::before{
+    position: absolute;
+    content: '';
+    background: url(../images/img-rocket-after.png) no-repeat;
+    width: 123px;
+    height: 268px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+
+
+/* broadband_content_1 */
+#no_contract_content{
+    padding-top: 7rem;
+    background: url(../images/broadband_bg_shape.png) no-repeat 114% -41%;
+}
+
+#no_contract_content h2.header_text{
+    font-size: 3rem;
+    position: relative;
+}
+#no_contract_content h2.header_text::after{
+    content: '';
+    width: 150px;
+    height: 8px;
+    background: #ff9000;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    border-radius: 0px 40px 40px 0px;
+}
+
+
+#contract_info p{
+    font-size: 1.80rem;
+    position: relative;
+}
+
+#contract_info p { 
+    color: #4d4d4d;
+}
+
+#no_contract_content p a{ 
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+#no_contract_content .list-group li:first-child{ border-top: 0; }
+#no_contract_content .list-group li{
+    font-size: 1.70rem;
+    border-left: none;
+    border-right: none;
+    padding-left: 0;
+    font-weight: 600;
+    border-bottom: 2px solid #e5e3e2;
+    background: none;
+    color: #11304e;
+}
+#no_contract_content .list-group li::after{
+    content: '';
+    background: url(../images/icons/thin_arrow.png) no-repeat;
+    position: absolute;
+    width: 45px;
+    height: 36px;
+    right: 0;
+    top: 29px;
+}
+
+#no_contract_content #shapes_bg{}
+#no_contract_content #shapes_bg #triagle_1{ position: absolute; right: -24rem; top: 3.50rem; }
+#no_contract_content #shapes_bg #triagle_2{ position: absolute; right: -32.5rem; top: 3.50rem;transform: rotate(85deg); }
+#no_contract_content #shapes_bg #triagle_3{ position: absolute; right: -31rem; top: 12rem; transform: rotateZ(25deg); }
+
+@media (max-width: 1024px){
+    #no_contract_content #shapes_bg #rocket_up{ right: -19rem; }
+    #no_contract_content #shapes_bg #triagle_1{ right: -15rem;  }
+    #no_contract_content #shapes_bg #triagle_2{ right: -22.5rem; }
+    #no_contract_content #shapes_bg #triagle_3{  right: -20rem;  }
+}
+
+@media (max-width: 768px){
+    #broadband_content_1{
+        padding-top: 0!important;
+    }
+    #no_contract_banner h1{     
+        font-size: 2rem;
+        text-align: center!important;
+        padding-left: 0; 
+    }
+    #no_contract_banner h1 span.banner_text_1{
+        font-size: 4.50rem;
+        margin-top: 0;
+        margin-bottom: 3px;
+    }
+    #no_contract_banner p{
+        padding-left: 0;
+    }
+    #no_contract_banner p.btn_submit_buy_now {
+        text-align: center!important;
+    }
+    #no_contract_banner p.btn_submit_buy_now button{
+        padding: 6px 17px;
+        font-size: 1.40rem;
+    }
+    #no_contract_banner h1 span.banner_text_2{
+        font-size: 2.50rem;
+    }
+    #no_contract_banner h1::after{
+        top: -48px;
+        left: 201px;
+    }
+    #no_contract_banner h1::before{
+        left: 17.5rem;
+        bottom: -12px;
+        top: auto;
+    }
+    #no_contract_content .list-group li{
+        font-size: 1.3rem;
+        padding-right: 38px;
+    }
+    #no_contract_content h2.header_text{ font-size: 2rem; }
+    #no_contract_content {
+        padding-top: 0rem;
+        background: url(../images/broadband_bg_shape.png) no-repeat 68% 13%;
+    }
+    
+}
+@media (max-width: 576px){
+.form-container{
+    width: 200%;
+    height: 500px;
+    margin-top: 2rem;
+    border: #11304e;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5rem;
+ }
+     
+ .form-container  textarea {
+    width: 87%;
+}
+#no-contract_content #shapes_bg #triagle_1{
+    display: none;
+}
+#no-contract_content #shapes_bg #triagle_2{
+    display: none;
+}
+#no-contract_content #shapes_bg #triagle_3{
+    display: none;
+}
+}
+
+@media (min-width: 2560px){
+    .container{
+        max-width: 1658px;
+    }
+}

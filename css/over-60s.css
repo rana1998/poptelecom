@@ -1,0 +1,365 @@
+body.over_60s{ background: #fff!important; }
+
+/* global  */
+
+.over_60s h2.head_border_bottom_yellow{ font-size: 3rem; position: relative; }
+.over_60s h2.head_border_bottom_yellow span{ font-size: 4.50rem; }
+.over_60s h2.head_border_bottom_yellow::after{
+    content: '';
+    width: 100px;
+    height: 8px;
+    background: #ff9000;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    border-radius: 0px 0px 0px 0px;
+}
+
+body.broadband{ background: #fff!important; }
+
+/* fiber_infinity_mainBanner  */
+#over_60s_mainBanner{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+#over_60s_banner_shadow{
+    top: -7.6rem;
+    left: 133px;
+    z-index: -1;
+}
+
+#over_60s_banner h1{ 
+    font-size: 3.26rem;
+    color: #11304e; 
+    line-height: 1; 
+    position: relative;
+}
+#over_60s_banner h1::after{ 
+    content: '';
+    position: absolute;
+    background: url(../images/icons/human.png) no-repeat;
+    width: 72px;
+    height: 154px;
+    top: 34px;
+    left: 15.3rem;
+    color: #11304e;
+}
+#over_60s_banner h1{  
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+#over_60s_banner h1 span.banner_text_1{ 
+    font-size: 6.7rem;
+    font-weight: 400;
+    line-height: 56px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#over_60s_banner h1 span.banner_text_2{
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+}
+
+#over_60s_banner h1 span i{ font-style: normal; }
+#over_60s_banner p.price{ 
+    font-size: 4.80rem; 
+    color: #11304e;
+    position: relative;
+    line-height: 88px;
+}
+#over_60s_banner p.price span{
+    font-size: 3rem;
+}
+#over_60s_banner p.btn_submit_buy_now button{ 
+    font-size: 1.9rem; 
+    border-color: #ff9c00; 
+    color: #ff9c00; 
+    border-radius: 0px; 
+    border-width: 2px;
+    position: relative;
+    padding: 5px 23px;
+}
+
+#over_60s_banner h1,
+#over_60s_banner p{ padding-left: 76px; }
+
+#over_60s_banner::before{
+    position: absolute;
+    content: '';
+    background: url(../images/img-rocket-after.png) no-repeat;
+    width: 123px;
+    height: 268px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+
+
+
+
+
+.open-button {
+    background-color: #11304e;
+    color: white;
+    font-size: 25px;
+    padding: 0px 11px;
+    border: none;
+    cursor: pointer;
+    position: sticky;
+    bottom: 23px;
+   right: 28px;
+    transition: all .25s ease-in-out;
+     position: fixed;
+    /* display: inline-flex; */
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+    height: 54px;
+    border-radius: 5px;
+  }
+  .open.button.hide {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .open.button.svg {
+    fill: #000;
+    width: 24px;
+    height: 12px;
+  }
+  .img-fluid {
+    max-width: 87%;
+    height: auto;
+}
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: sticky;
+    /* position: relative; */
+    bottom: 0;
+    right: 15px;
+ 
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+   
+    padding: 10px;
+    background-color: white;
+     height:650px;
+      overflow-y:auto;
+      margin-top: 2rem;
+      border: #11304e;
+      border-style: solid;
+      border-radius: 5px;
+      border-width: 0.5rem;
+  }
+
+
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 50%;
+    height: 45px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+ 
+  }
+ 
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #11304e;
+    color: white;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+  }
+
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color:#ff9000;
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    border-radius: unset!important;
+    /* text-align: end!important; */
+  }
+
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+
+/* broadband_content_1 */
+#over_60s_content{
+    padding-top: 8rem;
+    background: url(../images/broadband_bg_shape.png) no-repeat 114% -41%;
+}
+
+#over_60s_content h2.header_text{
+    font-size: 3rem;
+    position: relative;
+}
+#over_60s_content h2.header_text::after{
+    content: '';
+    width: 150px;
+    height: 8px;
+    background: #ff9000;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    border-radius: 0px 40px 40px 0px;
+}
+
+#over_60s_content p{ 
+    color: #4d4d4d;
+}
+#over_60s_content p a{ 
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+#circle_bg_pos{
+    z-index: -1;
+    left: -22rem;
+    top: 10rem;
+    width: 438px;
+    height: 438px;
+    background: #f9f7f6;
+    border-radius: 50%;
+}
+
+
+
+#over_60s_content .list-group li:first-child{ border-top: 0; }
+#over_60s_content .list-group li{
+    font-size: 1.70rem;
+    border-left: none;
+    border-right: none;
+    padding-left: 0;
+    font-weight: 600;
+    border-bottom: 2px solid #e5e3e2;
+    background: none;
+    color: #11304e;
+}
+#over_60s_content .list-group li::after{
+    content: '';
+    background: url(../images/icons/thin_arrow.png) no-repeat;
+    position: absolute;
+    width: 45px;
+    height: 36px;
+    right: 0;
+    top: 29px;
+}
+
+
+#over_60s_content #shapes_bg #triagle_1{ position: absolute; right: -24rem; top: 3.50rem; }
+#over_60s_content #shapes_bg #triagle_2{ position: absolute; right: -32.5rem; top: 3.50rem;transform: rotate(85deg); }
+#over_60s_content #shapes_bg #triagle_3{ position: absolute; right: -31rem; top: 12rem; transform: rotateZ(25deg); }
+
+@media (max-width: 1024px){
+    #over_60s_content #shapes_bg #rocket_up{ right: -19rem; }
+    #over_60s_content #shapes_bg #triagle_1{ right: -15rem;  }
+    #over_60s_content #shapes_bg #triagle_2{ right: -22.5rem; }
+    #over_60s_content #shapes_bg #triagle_3{  right: -20rem;  }
+    #over_60s_content h2{ font-size: 2rem; }
+}
+
+@media (max-width: 768px){
+    #broadband_content_1{
+        padding-top: 0!important;
+    }
+    #over_60s_banner h1{     
+        font-size: 2rem;
+        text-align: center!important;
+        padding-left: 0; 
+    }
+    #over_60s_banner h1 span.banner_text_1{
+        font-size: 6rem;
+    }
+    #over_60s_banner h1 span.banner_text_2{
+        font-size: 2.50rem;
+    }
+    #over_60s_banner p{
+        padding-left: 0;
+    }
+    #over_60s_banner p.btn_submit_buy_now {
+        text-align: center!important;
+    }
+    #over_60s_banner p.btn_submit_buy_now button{
+        padding: 6px 17px;
+        font-size: 1.40rem;
+    }
+    #over_60s_banner h1::after{
+        top: -42px;
+        left: 199px;
+    }
+    #over_60s_banner h1::before{
+        left: 15rem;
+        bottom: -8px;
+    }
+    #broadband_content_1 .list-group li{
+        font-size: 1.3rem;
+        padding-right: 38px;
+    }
+    #broadband_banner::before{
+        left: 0;
+    }
+    #over_60s_content .list-group li{
+        font-size: 1.3rem;
+        padding-right: 38px;
+    }
+    #over_60s_content .list-group li::after{
+        background-position: center;
+        height: 100%;
+        top: 0;
+}
+}
+
+@media (max-width: 576px){
+    .form-container{
+        width: 200%;
+        height: 500px;
+        margin-top: 2rem;
+        border: #11304e;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 0.5rem;
+     }
+         
+     .form-container  textarea {
+        width: 87%;
+    }
+    #over-60s_content #shapes_bg #triagle_1{
+        display: none;
+    }
+    #over-60s_content #shapes_bg #triagle_2{
+        display: none;
+    }
+    #over-60s_content #shapes_bg #triagle_3{
+        display: none;
+    }
+}
+
+@media (min-width: 2560px){
+    .container{
+        max-width: 1658px;
+    }
+}
