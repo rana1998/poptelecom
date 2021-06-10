@@ -227,7 +227,7 @@
                 </p>
 
                 <div class="row pt-5">
-                    <div class="col-12 col-sm-4 col-lg-4">
+                    <div class="col-12 col-sm-4 col-lg-4 my-4">
                         <div class="box_offers">
                             <div class="box_offers_icon d-block text-center">
                                 <span class="bg-white d-block rounded-pill">
@@ -261,7 +261,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-4 col-lg-4">
+                    <div class="col-12 col-sm-4 col-lg-4 my-4">
                         <div class="box_offers">
                             <div class="box_offers_icon d-block text-center">
                                 <span class="bg-white d-block rounded-pill">
@@ -295,7 +295,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-4 col-lg-4">
+                    <div class="col-12 col-sm-4 col-lg-4  my-4">
                         <div class="box_offers">
                             <div class="box_offers_icon d-block text-center">
                                 <span class="bg-white d-block rounded-pill">
@@ -571,6 +571,11 @@
           function closeForm() {
             document.getElementById("myForm").style.display = "none";
           }
+        
+        $("#btn_close_icon").click(()=>
+        {
+            $("#mobile_view_menu").removeClass("show");
+        })
         
           </script>
         
