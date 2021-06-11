@@ -24,6 +24,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-sm-12 col-12">
                         <!-- <button class="open-button" style=" height: 35px; float:right;margin-right: 14px;" onclick="openForm()"><img src="icons/email.png" style="height: 23px; width: 25px;margin-bottom: 6px;">&nbsp;Chat Offline</button> -->
+                        
                         <p id="top_email" class="text-start mb-0 text-white">
                             <span class="d-block d-lg-inline d-sm-block me-1"><img src="images/icons/email.png" alt="#" style="width: .9rem;"> Email:abc@poptelecom.com</span>
                             <span class="d-block d-lg-inline d-sm-block"><img src="images/icons/call.png" alt="#" class="d-inline-block" style="width: .9rem;"> Customer Support : (000) 0000 000</span>
@@ -70,7 +71,7 @@
                             <li class="nav-item"><a class="nav-link" href="fibre-infinity.html">Fibre Infinity</a></li>
                             <li class="nav-item"><a class="nav-link" href="no-contract.html">No Contract</a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Bespoke</a>
+                                <a class="nav-link dropdown-toggle" id="mainbespoke"  onclick=dropdownToggle(this)>Bespoke</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="sim-only.html">SIM Only</a></li>
                                     <li><a class="dropdown-item" href="rural-broadband.html">Rural Broadband</a></li>
@@ -79,16 +80,16 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Landline</a>
+                                <a class="nav-link dropdown-toggle"  id="mainlandline" onclick=dropdownToggle(this)>Landline</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="12-99.html">£12.99 Landline Only</a></li>
-                                    <li><a class="dropdown-item" href="1949.html">£19.49 Line and Anytime Calls</a></li>
+                                    <li><a class="dropdown-item" href="#">£19.49 Line and Anytime Calls</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="aboutus.html">About</a>
-                        <ul class="dropdown-menu">
-                         
+                                <ul class="dropdown-menu">
+                              
                                     <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
                                     <li><a class="dropdown-item" href="guide.html">Guides</a></li>
                                     <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
@@ -111,7 +112,7 @@
 
     <!-- extra menu for mobile and ipad and tabs view -->
     <div id="mobile_view_menu" class="collapse fade">
-        <button class="btn btn-lg" id="btn_close_icon" data-bs-toggle="collapse" data-bs-target="#mobile_view_menu" href="#"></button>
+        <button class="btn btn-lg" id="btn_close_icon"></button>
         <div class="container">
             <div class="navbar navbar-expand-lg">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -121,7 +122,7 @@
                     <li class="nav-item"><a class="nav-link" href="fibre-infinity.html">Fibre Infinity</a></li>
                     <li class="nav-item"><a class="nav-link" href="no-contract.html">No Contract</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Bespoke</a>
+                        <a class="nav-link dropdown-toggle"  id="bespoke" onclick=dropdownToggle(this)>Bespoke</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="sim-only.html">SIM Only</a></li>
                             <li><a class="dropdown-item" href="rural-broadband.html">Rural Broadband</a></li>
@@ -130,14 +131,14 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Landline</a>
+                        <a class="nav-link dropdown-toggle"  id="landline" onclick=dropdownToggle(this)>Landline</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="12-99.html">£12.99 Landline Only</a></li>
-                            <li><a class="dropdown-item" href="1949.html">£19.49 Line and Anytime Calls</a></li>
+                            <li><a class="dropdown-item" href="#">£19.49 Line and Anytime Calls</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">About</a>
+                        <a class="nav-link dropdown-toggle"  id="about" onclick=dropdownToggle(this)>About</a>
                        <ul class="dropdown-menu">
                            <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
                            <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
@@ -171,14 +172,14 @@
                     <a href="#">
                         <img src="icons/linkein.png" alt="#">
                     </a>
-                </li>            
+                </li>                  
             </ul>
         </div>
     </div>
 
     <!-- search bar for desktop, tabs, ipad and mobile view -->
     <div id="searchBar" class="collapse fade">
-        <button class="btn btn-lg" id="btn_close_icon" data-bs-toggle="collapse" data-bs-target="#searchBar" href="#"></button>
+        <button class="btn btn-lg" id="btn_close_icon" onclick="closeSearchDiv()"></button>
         <div class="container">
             <div class="col-lg-8 offset-lg-2">
                 <div class="row g-0">
@@ -241,7 +242,7 @@
                                     <h2 class="display-5 f-w1 text-center text-white">£30.00 <span>/month</span></h2>
                                     <h3 class="display-7 f-w3 mb-0 text-center text-white">Superfast Fibre <span class="d-block display-6 f-w1">Infinity</span></h3>
                                     <p class="text-center mb-0 arrow_click">
-                                        <button class="btn btn-transparent btn-sm" data-bs-toggle="collapse" data-bs-target="#offer_1">
+                                        <button class="btn btn-transparent btn-sm" onclick="priceDivToggle('offer_1')">
                                             <img src="images/arrow_down.svg" class="img-fluid" alt="">
                                         </button>
                                     </p>
@@ -274,7 +275,7 @@
                                 <div class="box_header_text">
                                     <h2 class="display-5 f-w1 text-center text-white">£30.00 <span>/month</span></h2>
                                     <h3 class="display-7 f-w3 mb-0 text-center text-white">Superfast Fibre <span class="d-block display-6 f-w1">Infinity</span></h3>
-                                    <p class="text-center mb-0 arrow_click" data-bs-toggle="collapse" data-bs-target="#offer_3">
+                                    <p class="text-center mb-0 arrow_click" onclick="priceDivToggle('offer_3')">
                                         <button class="btn btn-transparent btn-sm">
                                             <img src="images/arrow_down.svg" class="img-fluid" alt="">
                                         </button>
@@ -589,10 +590,26 @@
             document.getElementById("myForm").style.display = "none";
           }
 
-          $("#btn_close_icon").click(()=>
+        $("#btn_close_icon").click(()=>
         {
             $("#mobile_view_menu").removeClass("show");
         })
+
+        const dropdownToggle = (el) =>
+        {
+           let id = el.getAttribute('id');
+           $(`#${id}`).next().toggleClass("show");
+        }
+
+        function closeSearchDiv()
+        {
+            $("#searchBar").removeClass("show");
+        }
+
+        function priceDivToggle(divId)
+        {
+            $(`#${divId}`).fadeToggle("slow");
+        }
         
           </script>
         
