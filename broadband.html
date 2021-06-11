@@ -16,98 +16,95 @@
     <link rel="stylesheet" href="css/broadband.css">
 </head>
 <body class="pages broadband">
-    <!-- header -->
-    <header id="mainHeader">
-        <div class="mainHeader_contact_info p-2">
+<!-- header -->
+      <header id="mainHeader">
+         <div class="mainHeader_contact_info p-2">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-sm-12 col-12">
-                        <!-- <button class="open-button" style=" height: 35px; float:right;margin-right: 14px;" onclick="openForm()"><img src="icons/email.png" style="height: 23px; width: 25px;margin-bottom: 6px;">&nbsp;Chat Offline</button> -->
-                        
-                        <p id="top_email" class="text-start mb-0 text-white">
-                            <span class="d-block d-lg-inline d-sm-block me-1"><img src="images/icons/email.png" alt="#" style="width: .9rem;"> Email:abc@poptelecom.com</span>
-                            <span class="d-block d-lg-inline d-sm-block"><img src="images/icons/call.png" alt="#" class="d-inline-block" style="width: .9rem;"> Customer Support : (000) 0000 000</span>
-                        </p>
-                    </div>
-                    <div class="col-lg-6 col-sm-12 col-12">
-                        <p class="text-start text-sm-end text-lg-end mb-0 text-white">
-                            <span class="d-block d-lg-inline d-sm-block">
-                                <a href="#" class="text-decoration-none text-white">
-                                    <img src="images/icons/pound_symbol.png" alt="#" class="d-inline-block img-fluid" style="width: .8rem; margin-top: -3px;"> Make Payment
-                                </a>
-                            </span>
-                            <span id="top_social_media" class="ms-4 text-end d-none d-sm-none d-lg-inline-block">
-                                <a href="#" class="d-inline-block">
-                                    <img src="icons/facebook.png" alt="#">
-                                </a>
-                                <a href="#" class="d-inline-block">
-                                    <img src="icons/instagram.png" alt="#">
-                                </a>
-                                <a href="#" class="d-inline-block">
-                                    <img src="icons/linkein.png" alt="#">
-                                </a>
-                            </span>
-                        </p>
-                    </div>
-                </div>
-                
+               <div class="row">
+                  <div class="col-lg-6 col-sm-12 col-12">
+                     <!-- <button class="open-button" style=" height: 35px; float:right;margin-right: 14px;" onclick="openForm()"><img src="icons/email.png" style="height: 23px; width: 25px;margin-bottom: 6px;">&nbsp;Chat Offline</button> -->
+                     <p id="top_email" class="text-start mb-0 text-white">
+                        <span class="d-block d-lg-inline d-sm-block me-1"><img src="images/icons/email.png" alt="#" style="width: .9rem;"> Email:abc@poptelecom.com</span>
+                        <span class="d-block d-lg-inline d-sm-block"><img src="images/icons/call.png" alt="#" class="d-inline-block" style="width: .9rem;"> Customer Support : (000) 0000 000</span>
+                     </p>
+                  </div>
+                  <div class="col-lg-6 col-sm-12 col-12">
+                     <p class="text-start text-sm-end text-lg-end mb-0 text-white">
+                        <span class="d-block d-lg-inline d-sm-block">
+                        <a href="#" class="text-decoration-none text-white">
+                        <img src="images/icons/pound_symbol.png" alt="#" class="d-inline-block img-fluid" style="width: .8rem; margin-top: -3px;"> Make Payment
+                        </a>
+                        </span>
+                        <span id="top_social_media" class="ms-4 text-end d-none d-sm-none d-lg-inline-block">
+                        <a href="#" class="d-inline-block">
+                        <img src="icons/facebook.png" alt="#">
+                        </a>
+                        <a href="#" class="d-inline-block">
+                        <img src="icons/instagram.png" alt="#">
+                        </a>
+                        <a href="#" class="d-inline-block">
+                        <img src="icons/linkein.png" alt="#">
+                        </a>
+                        </span>
+                     </p>
+                  </div>
+               </div>
             </div>
-        </div>
-        <div class="mainHeader_nav_menu">
+         </div>
+         <div class="mainHeader_nav_menu">
             <div class="container">
-                <nav class="navbar navbar-expand-lg p-0">
-                    <a class="navbar-brand p-0" href="index.html" title="#">
-                        <img src="images/pop_telelcom_logo.png" alt="#" class="img-fluid">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile_view_menu">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="popTelcomMenu">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link active" href="broadband.html">Broadband</a></li>
-                            <li class="nav-item"><a class="nav-link" href="tv.html">TV</a></li>
-                            <li class="nav-item"><a class="nav-link" href="fibre-advanced.html">Fibre Advanced</a></li>
-                            <li class="nav-item"><a class="nav-link" href="fibre-infinity.html">Fibre Infinity</a></li>
-                            <li class="nav-item"><a class="nav-link" href="no-contract.html">No Contract</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="mainbespoke"  onclick=dropdownToggle(this)>Bespoke</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="sim-only.html">SIM Only</a></li>
-                                    <li><a class="dropdown-item" href="rural-broadband.html">Rural Broadband</a></li>
-                                    <li><a class="dropdown-item" href="over-60s.html">Broadband for the over 60s</a></li>
-                                    <li><a class="dropdown-item" href="gaming.html">Gaming</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle"  id="mainlandline" onclick=dropdownToggle(this)>Landline</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="12-99.html">£12.99 Landline Only</a></li>
-                                    <li><a class="dropdown-item" href="1949.html">£19.49 Line and Anytime Calls</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="aboutus.html">About</a>
-                                <ul class="dropdown-menu">
-                              
-                                    <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
-                                    <li><a class="dropdown-item" href="guide.html">Guides</a></li>
-                                    <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item"><a class="nav-link active" href="business.html">Business</a></li>
-                        </ul>
-                    </div>
-                    <ul class="navbar-nav d-flex extra_menu">
-                        <li class="nav-item me-3" id="search_btn"><a class="nav-link active" data-bs-toggle="collapse" data-bs-target="#searchBar" href="#">
-                            <img src="images/icons/search.png" class="img-fluid" alt="#" width="14" height="16">
-                        </a></li>
-                        <li class="nav-item" id="number_btn"><a class="btn btn-outline-secondary" href="#"><img src="images/icons/call_header_ring.png" class="img-fluid" alt="#"> (000) 000 000</a></li>
-                    </ul>
-                </nav>
+               <nav class="navbar navbar-expand-lg p-md-0 p-sm-2">
+                  <a class="navbar-brand p-0 mx-auto" href="index.html" title="#">
+                  <img src="images/pop_telelcom_logo.png" alt="#" class="img-fluid">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile_view_menu">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="popTelcomMenu">
+                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="broadband.html">Broadband</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tv.html">TV</a></li>
+                        <li class="nav-item"><a class="nav-link" href="fibre-advanced.html">Fibre Advanced</a></li>
+                        <li class="nav-item"><a class="nav-link" href="fibre-infinity.html">Fibre Infinity</a></li>
+                        <li class="nav-item"><a class="nav-link" href="no-contract.html">No Contract</a></li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" id="mainbespoke"  onclick=dropdownToggle(this)>Bespoke</a>
+                           <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="sim-only.html">SIM Only</a></li>
+                              <li><a class="dropdown-item" href="rural-broadband.html">Rural Broadband</a></li>
+                              <li><a class="dropdown-item" href="over-60s.html">Broadband for the over 60s</a></li>
+                              <li><a class="dropdown-item" href="gaming.html">Gaming</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle"  id="mainlandline" onclick=dropdownToggle(this)>Landline</a>
+                           <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="12-99.html">£12.99 Landline Only</a></li>
+                              <li><a class="dropdown-item" href="1949.html">£19.49 Line and Anytime Calls</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="aboutus.html">About</a>
+                           <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
+                              <li><a class="dropdown-item" href="guide.html">Guides</a></li>
+                              <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link active" href="business.html">Business</a></li>
+                     </ul>
+                  </div>
+                  <ul class="navbar-nav d-flex extra_menu">
+                     <li class="nav-item me-3" id="search_btn"><a class="nav-link active" data-bs-toggle="collapse" data-bs-target="#searchBar" href="#">
+                        <img src="images/icons/search.png" class="img-fluid" alt="#" width="14" height="16">
+                        </a>
+                     </li>
+                     <li class="nav-item" id="number_btn"><a class="btn btn-outline-secondary" href="#"><img src="images/icons/call_header_ring.png" class="img-fluid" alt="#"> (000) 000 000</a></li>
+                  </ul>
+               </nav>
             </div>
-        </div>
-    </header>
-    <!-- /end header -->
+         </div>
+      </header>
 
     <!-- extra menu for mobile and ipad and tabs view -->
     <div id="mobile_view_menu" class="collapse fade">

@@ -1201,7 +1201,7 @@ z-index: 20;
     /* .mainHeader_nav_mene */
     #mainHeader{}
     /* .mainHeader_nav_menu .navbar-brand{ width: 26%; } */
-    .mainHeader_nav_menu .navbar-brand{ width: 30%; }
+    .mainHeader_nav_menu .navbar-brand{ width: 30% !important; }
     .mainHeader_nav_menu .navbar-toggler{  }
         #search_btn img{ width: 1.30rem; }
 
