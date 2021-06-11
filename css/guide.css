@@ -516,9 +516,10 @@ hr{
      padding-left: 0px!important;
 }
 #pages_content  .dfd{
-    max-width: 143%!important;
+    /* max-width: 143%!important; */
+    width:100%;
      padding-left: 0px!important;
-     position: absolute;
+     /* position: absolute; */
      height: 244px;
 }
 #pages_content .col-sm-12.col-6{
