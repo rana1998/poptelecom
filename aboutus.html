@@ -45,6 +45,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-sm-12 col-12">
                         <!-- <button class="open-button" style=" height: 35px; float:right;margin-right: 14px;" onclick="openForm()"><img src="icons/email.png" style="height: 23px; width: 25px;margin-bottom: 6px;">&nbsp;Chat Offline</button> -->
+                        
                         <p id="top_email" class="text-start mb-0 text-white">
                             <span class="d-block d-lg-inline d-sm-block me-1"><img src="images/icons/email.png" alt="#" style="width: .9rem;"> Email:abc@poptelecom.com</span>
                             <span class="d-block d-lg-inline d-sm-block"><img src="images/icons/call.png" alt="#" class="d-inline-block" style="width: .9rem;"> Customer Support : (000) 0000 000</span>
@@ -91,7 +92,7 @@
                             <li class="nav-item"><a class="nav-link" href="fibre-infinity.html">Fibre Infinity</a></li>
                             <li class="nav-item"><a class="nav-link" href="no-contract.html">No Contract</a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Bespoke</a>
+                                <a class="nav-link dropdown-toggle" id="mainbespoke"  onclick=dropdownToggle(this)>Bespoke</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="sim-only.html">SIM Only</a></li>
                                     <li><a class="dropdown-item" href="rural-broadband.html">Rural Broadband</a></li>
@@ -100,16 +101,16 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Landline</a>
+                                <a class="nav-link dropdown-toggle"  id="mainlandline" onclick=dropdownToggle(this)>Landline</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="12-99.html">£12.99 Landline Only</a></li>
-                                    <li><a class="dropdown-item" href="1949.html">£19.49 Line and Anytime Calls</a></li>
+                                    <li><a class="dropdown-item" href="#">£19.49 Line and Anytime Calls</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="aboutus.html">About</a>
-                        <ul class="dropdown-menu">
-                        
+                                <ul class="dropdown-menu">
+                              
                                     <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
                                     <li><a class="dropdown-item" href="guide.html">Guides</a></li>
                                     <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
@@ -132,7 +133,7 @@
 
     <!-- extra menu for mobile and ipad and tabs view -->
     <div id="mobile_view_menu" class="collapse fade">
-        <button class="btn btn-lg" id="btn_close_icon" data-bs-toggle="collapse" data-bs-target="#mobile_view_menu" href="#"></button>
+        <button class="btn btn-lg" id="btn_close_icon"></button>
         <div class="container">
             <div class="navbar navbar-expand-lg">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -142,7 +143,7 @@
                     <li class="nav-item"><a class="nav-link" href="fibre-infinity.html">Fibre Infinity</a></li>
                     <li class="nav-item"><a class="nav-link" href="no-contract.html">No Contract</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Bespoke</a>
+                        <a class="nav-link dropdown-toggle"  id="bespoke" onclick=dropdownToggle(this)>Bespoke</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="sim-only.html">SIM Only</a></li>
                             <li><a class="dropdown-item" href="rural-broadband.html">Rural Broadband</a></li>
@@ -151,14 +152,14 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Landline</a>
+                        <a class="nav-link dropdown-toggle"  id="landline" onclick=dropdownToggle(this)>Landline</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="12-99.html">£12.99 Landline Only</a></li>
-                            <li><a class="dropdown-item" href="1949.html">£19.49 Line and Anytime Calls</a></li>
+                            <li><a class="dropdown-item" href="#">£19.49 Line and Anytime Calls</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">About</a>
+                        <a class="nav-link dropdown-toggle"  id="about" onclick=dropdownToggle(this)>About</a>
                        <ul class="dropdown-menu">
                            <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
                            <li><a class="dropdown-item" href="faqs.html">FAQs</a></li>
@@ -192,14 +193,14 @@
                     <a href="#">
                         <img src="icons/linkein.png" alt="#">
                     </a>
-                </li>                 
+                </li>                  
             </ul>
         </div>
     </div>
 
     <!-- search bar for desktop, tabs, ipad and mobile view -->
     <div id="searchBar" class="collapse fade">
-        <button class="btn btn-lg" id="btn_close_icon" data-bs-toggle="collapse" data-bs-target="#searchBar" href="#"></button>
+        <button class="btn btn-lg" id="btn_close_icon" onclick="closeSearchDiv()"></button>
         <div class="container">
             <div class="col-lg-8 offset-lg-2">
                 <div class="row g-0">
@@ -217,7 +218,7 @@
     <!-- /search bar -->
         
       
-    </style>  
+   
       <!-- main banner -->
     <div id="aboutus_banner">
         <section id="aboutus_mainBanner" class="clearfix">
@@ -274,7 +275,7 @@
 <p  style="font-size: 24px; font-weight:400; color:#646464; line-height: 2rem;">We are one of the fastest growing telecommunication companies in the UK today, with an ethos of Simply Communicating by Communicating Simply. Our aim is to make the journey of joining and benefiting from our landline, broadband and mobile owned networks simple and clear.<br />
 <br />
 We pride ourselves on delivering, Market Leading Consumer and Business tariffs backed up by our UK based Customer Service staff, trained to the highest standard, and committed to making sure your experience with POP Telecom will not be beaten.</p><br>
-<div class="col-sm-5" id="banner_right!" style="float: right; margin-left: 80px; ">
+<div class="col-sm-5" id="banner_right!" style="float: right; ">
 
  <img src="images/44.jpg" class="map" style="width: 43%;vertical-align: middle;  "> 
 
@@ -354,7 +355,7 @@ We pride ourselves on delivering, Market Leading Consumer and Business tariffs b
 </div>
 <br>
 <br>
- <div class="col-sm-6" id="banner_right!" style="margin-left: 5rem; margin-top: 1.5rem;">
+ <div class="col-sm-6" id="banner_right!" style="">
       <h2 class="f-w1 lh-1 mb-5 h2_c text-uppercase header_text">The Small Print </h2>
        <hr style=" width: 150px; height: 8px;   background: #ff9000; opacity: 100;">
     
@@ -393,7 +394,7 @@ We pride ourselves on delivering, Market Leading Consumer and Business tariffs b
         <div class="row">
             <div class="col-lg-7 col-sm-12 col-12">
                 <p id="left_img_content">
-                    <img src="images/no-contract-img.png" class="img-fluid shadow" alt="#">
+                    <img src="images/no-contract-img.png" class="img-fluid shadow" style="width:100%"alt="#">
                 </p>
             </div>
             <div class="col-lg-5 col-sm-12 col-12">
@@ -429,7 +430,7 @@ We pride ourselves on delivering, Market Leading Consumer and Business tariffs b
 </div>
 </section>
  <!-- mainContent_13 -->
- <section id="mainContent_13" class="pt-5 pb-5" style="background: #12314f;">
+ <section id="mainContent_13" class="p-4" style="background: #12314f;">
     <div class="container">
         <div class="col-lg-9 offset-lg-2 col-12 col-sm-12">
             <div class="row">
@@ -604,10 +605,26 @@ function openForm() {
     document.getElementById("myForm").style.display = "none";
   }
 
-  $("#btn_close_icon").click(()=>
+        $("#btn_close_icon").click(()=>
         {
             $("#mobile_view_menu").removeClass("show");
         })
+
+        const dropdownToggle = (el) =>
+        {
+           let id = el.getAttribute('id');
+           $(`#${id}`).next().toggleClass("show");
+        }
+
+        function closeSearchDiv()
+        {
+            $("#searchBar").removeClass("show");
+        }
+
+        function priceDivToggle(divId)
+        {
+            $(`#${divId}`).fadeToggle("slow");
+        }
 
   </script>
 
