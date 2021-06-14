@@ -99,8 +99,7 @@ a:focus{ outline: none; }
         width: 12%; 
         margin-bottom: -45px; 
     } 
-    .mainHeader_nav_menu .navbar-brand img{ max-height: 22vh;
-        max-width: 18vw; } 
+    .mainHeader_nav_menu .navbar-brand img{  } 
     .mainHeader_nav_menu .collapse{ }
     .mainHeader_nav_menu .collapse ul{ }
     .mainHeader_nav_menu .collapse ul li{
