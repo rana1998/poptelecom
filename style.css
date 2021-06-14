@@ -88,7 +88,6 @@ a:focus{ outline: none; }
     .mainHeader_contact_info img{ width: 1.3rem; }
 
 .mainHeader_nav_menu{
-    max-height: 20vh;
     background-color: #fff;
     box-shadow: 0 0 0px 1px rgb(160 160 160 / 3%);;
     -webkit-box-shadow: 0 0 0px 1px rgb(160 160 160 / 3%);;
@@ -100,8 +99,8 @@ a:focus{ outline: none; }
         width: 12%; 
         margin-bottom: -45px; 
     } 
-    .mainHeader_nav_menu .navbar-brand img{ max-height: 17vh;
-        max-width: 17vw; } 
+    .mainHeader_nav_menu .navbar-brand img{ max-height: 30vh;
+        max-width: 30vw; } 
     .mainHeader_nav_menu .collapse{ }
     .mainHeader_nav_menu .collapse ul{ }
     .mainHeader_nav_menu .collapse ul li{
@@ -1077,8 +1076,8 @@ a:focus{ outline: none; }
         text-align: center!important;
     }
     .mainHeader_nav_menu .navbar-brand{ margin-bottom: 0; width: 20%; display: flex; order: 1; }
-    .mainHeader_nav_menu .navbar-brand img{ padding-top: .50rem; padding-bottom: .50rem; max-height: 17vh;
-        max-width: 17vw;}
+    .mainHeader_nav_menu .navbar-brand img{ padding-top: .50rem; padding-bottom: .50rem; max-height: 30vh;
+        max-width: 30vw;}
     .mainHeader_nav_menu .navbar-toggler-icon{ background: url(images/menu-bar.svg) no-repeat; width: 1.40rem; height: 1.40rem; }
     .navbar-collapse{ display: flex; order: 2; }
     .extra_menu{ display: flex; order: 3; }
