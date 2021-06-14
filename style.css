@@ -1075,8 +1075,8 @@ a:focus{ outline: none; }
         text-align: center!important;
     }
     .mainHeader_nav_menu .navbar-brand{ margin-bottom: 0; width: 20%; display: flex; order: 1; }
-    .mainHeader_nav_menu .navbar-brand img{ padding-top: .50rem; padding-bottom: .50rem; max-height: 22vh;
-        max-width: 18vw;}
+    .mainHeader_nav_menu .navbar-brand img{ padding-top: .50rem; padding-bottom: .50rem; max-height: 16vh;
+        max-width: 20vw;}
     .mainHeader_nav_menu .navbar-toggler-icon{ background: url(images/menu-bar.svg) no-repeat; width: 1.40rem; height: 1.40rem; }
     .navbar-collapse{ display: flex; order: 2; }
     .extra_menu{ display: flex; order: 3; }
